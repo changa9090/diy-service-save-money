@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 392" width="100%" role="img" aria-label="호주 연방순회·가족법원(FCFCOA) 본안 사건 종결 방식과 양육 소송 위험 요인 실태" style="max-width:880px;height:auto;display:block;font-family:'Pretendard Variable', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+  <rect x="0.5" y="0.5" width="879" height="391" rx="14" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="1"/>
+  <rect x="1" y="1" width="878" height="78" rx="13" fill="#FAF9F6"/>
+  <line x1="1" y1="79" x2="879" y2="79" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="28" y="29" font-size="11" font-weight="700" fill="#7A1F2B" letter-spacing="0.06em">법원 공식 데이터 · 본안 소송의 90.0%는 판결문 없이 합의로 끝납니다</text>
+  <text x="28" y="52" font-size="16.8" font-weight="800" fill="#1F242B">호주 연방순회·가족법원(FCFCOA) 본안 사건 종결 방식과 양육 소송 위험 요인 실태</text>
+  <text x="28" y="70" font-size="11.3" fill="#525B67">출처: FCFCOA 2025–26 연례보고서 (1심 총 105,836건 접수) · 호주 통계청(ABS) 2025 혼인·이혼 통계 (이혼 49,158건 중 공동신청 50.4%)</text>
+  <rect x="22" y="96" width="408" height="278" rx="10" fill="#FAF9F6" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="38" y="122" font-size="13.5" font-weight="800" fill="#1F242B">① 본안 소송(Div 2 Final Orders) 종결 비율</text>
+  <rect x="38" y="138" width="307" height="34" rx="5" fill="#1F4E5F"/>
+  <rect x="345" y="138" width="31" height="34" fill="#9A6700"/>
+  <rect x="376" y="138" width="38" height="34" rx="5" fill="#7A1F2B"/>
+  <text x="191" y="160" text-anchor="middle" font-size="12" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">81.8%</text>
+  <rect x="38" y="192" width="12" height="12" rx="3" fill="#1F4E5F"/>
+  <text x="58" y="203" font-size="12.2" font-weight="700" fill="#1F242B">재판 전 합의·취하 종결: 81.8%</text>
+  <text x="58" y="220" font-size="11.2" fill="#525B67">조정·협상 단계에서 마무리</text>
+  <rect x="38" y="240" width="12" height="12" rx="3" fill="#9A6700"/>
+  <text x="58" y="251" font-size="12.2" font-weight="700" fill="#1F242B">재판 진행 중 법정 합의: 8.3%</text>
+  <text x="58" y="268" font-size="11.2" fill="#525B67">도합 90.0%가 판결문 없이 종결!</text>
+  <rect x="38" y="288" width="12" height="12" rx="3" fill="#7A1F2B"/>
+  <text x="58" y="299" font-size="12.2" font-weight="700" fill="#1F242B">끝까지 판사 판결 선고: 10.0%</text>
+  <text x="58" y="316" font-size="11.2" fill="#525B67">중위 15.8개월 소요 (Div 1은 27개월)</text>
+  <rect x="36" y="334" width="380" height="28" rx="6" fill="#EDF7F2"/>
+  <text x="48" y="352" font-size="11.3" font-weight="700" fill="#1D6B48">비교 · 합의명령(Consent Orders): 연간 17,423건 서면 종결 (평균 약 4주)</text>
+  <rect x="448" y="96" width="410" height="278" rx="10" fill="#FAF9F6" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="464" y="122" font-size="13.2" font-weight="800" fill="#1F242B">② 양육 본안 사건 위험 요인 비율 (s 60CC 안전 최우선 배경)</text>
+  <text x="464" y="158" font-size="11.8" font-weight="600" fill="#1F242B">최소 1개 이상 위험 요인 존재</text>
+  <rect x="646" y="144" width="185" height="18" rx="4" fill="#EAE6DF"/>
+  <rect x="646" y="144" width="170" height="18" rx="4" fill="#7A1F2B"/>
+  <text x="838" y="158" text-anchor="end" font-size="11.5" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#7A1F2B">92%</text>
+  <text x="464" y="198" font-size="11.8" font-weight="600" fill="#1F242B">당사자 가정폭력 피해 주장</text>
+  <rect x="646" y="184" width="185" height="18" rx="4" fill="#EAE6DF"/>
+  <rect x="646" y="184" width="155" height="18" rx="4" fill="#A63A48"/>
+  <text x="838" y="198" text-anchor="end" font-size="11.5" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#A63A48">84%</text>
+  <text x="464" y="238" font-size="11.8" font-weight="600" fill="#1F242B">아동의 가정폭력 노출·피해</text>
+  <rect x="646" y="224" width="185" height="18" rx="4" fill="#EAE6DF"/>
+  <rect x="646" y="224" width="148" height="18" rx="4" fill="#C04A5A"/>
+  <text x="838" y="238" text-anchor="end" font-size="11.5" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#C04A5A">80%</text>
+  <text x="464" y="278" font-size="11.8" font-weight="600" fill="#1F242B">당사자 정신건강 위험 요인</text>
+  <rect x="646" y="264" width="185" height="18" rx="4" fill="#EAE6DF"/>
+  <rect x="646" y="264" width="112" height="18" rx="4" fill="#1F4E5F"/>
+  <text x="838" y="278" text-anchor="end" font-size="11.5" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#1F4E5F">61%</text>
+  <text x="464" y="318" font-size="11.8" font-weight="600" fill="#1F242B">약물·알코올 남용 위험 요인</text>
+  <rect x="646" y="304" width="185" height="18" rx="4" fill="#EAE6DF"/>
+  <rect x="646" y="304" width="99" height="18" rx="4" fill="#3B6E82"/>
+  <text x="838" y="318" text-anchor="end" font-size="11.5" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#3B6E82">54%</text>
+  <text x="464" y="355" font-size="10.8" font-weight="700" fill="#7A1F2B">→ 2024.05.06 균등 공동양육 추정(구 s 61DA) 완전 폐지 · 안전 최우선(s 60CC(2)(a))</text>
+</svg>

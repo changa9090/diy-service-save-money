@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 366" width="100%" role="img" aria-label="비자 거절·오버스테이 후 온쇼어 820 신청 시 통과해야 할 3단계 법리" style="max-width:880px;height:auto;display:block;font-family:'Pretendard Variable', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+  <rect x="0.5" y="0.5" width="879" height="365" rx="14" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="1"/>
+  <rect x="1" y="1" width="878" height="76" rx="13" fill="#FAF9F6"/>
+  <line x1="1" y1="77" x2="879" y2="77" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="26" y="28" font-size="11" font-weight="700" fill="#7A1F2B" letter-spacing="0.05em">호주 내 파트너비자(820) 구제 · Section 48 예외와 Schedule 3 면제 관문</text>
+  <text x="26" y="51" font-size="16" font-weight="800" fill="#1F242B">비자 거절·오버스테이 후 온쇼어 820 신청 시 통과해야 할 3단계 법리</text>
+  <text x="26" y="69" font-size="11.2" fill="#525B67">근거: Migration Act s 48 · Reg 2.12 · cl 820.211(2)(d)(ii) · Waensila [2016] FCAFC 32 · Babicci [2005] FCAFC 77</text>
+  <rect x="22" y="94" width="264" height="202" rx="10" fill="#EEF5F7" stroke="#1F4E5F" stroke-width="1.3"/>
+  <rect x="22" y="94" width="264" height="30" rx="9" fill="#1F4E5F"/>
+  <text x="36" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">STEP 01 · 접수 유효성 관문</text>
+  <text x="36" y="149" font-size="13.2" font-weight="800" fill="#1F242B">Section 48 예외 요건 충족</text>
+  <text x="36" y="170" font-size="11" font-weight="700" fill="#1F4E5F">Migration Act s 48 · Reg 2.12</text>
+  <line x1="36" y1="182" x2="272" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="36" y="204" font-size="11.2" fill="#1F242B" font-weight="600">입국 후 비자 거절·취소 시 원칙적 온쇼어 금지</text>
+  <text x="36" y="225" font-size="11.2" fill="#525B67" font-weight="400">파트너비자(820/801)는 예외 허용 비자군 포함</text>
+  <text x="36" y="246" font-size="11.2" fill="#525B67" font-weight="400">단, 이전 파트너 거절 이력·스폰서 결격 점검</text>
+  <text x="36" y="267" font-size="11.2" fill="#525B67" font-weight="400">접수 무효 시 체류 신분 즉시 추락 위험</text>
+  <line x1="289" y1="195" x2="300" y2="195" stroke="#1F242B" stroke-width="1.8"/>
+  <polygon points="303,195 297,191 297,199" fill="#1F242B"/>
+  <rect x="306" y="94" width="264" height="202" rx="10" fill="#FDF3F4" stroke="#7A1F2B" stroke-width="1.3"/>
+  <rect x="306" y="94" width="264" height="30" rx="9" fill="#7A1F2B"/>
+  <text x="320" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">STEP 02 · 28일 데드라인</text>
+  <text x="320" y="149" font-size="13.2" font-weight="800" fill="#1F242B">실질비자 만료 후 28일 경과(3001)</text>
+  <text x="320" y="170" font-size="11" font-weight="700" fill="#7A1F2B">Schedule 3 Criteria 3001, 3003, 3004</text>
+  <line x1="320" y1="182" x2="556" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="320" y="204" font-size="11.2" fill="#1F242B" font-weight="600">브리징비자·불법체류 상태 접수 시 Sch 3 발동</text>
+  <text x="320" y="225" font-size="11.2" fill="#525B67" font-weight="400">단순히 &#x27;진실한 부부·동거&#x27;만으로는 면제 불가!</text>
+  <text x="320" y="246" font-size="11.2" fill="#525B67" font-weight="400">출국 후 309 신청 불편함 정도로는 기각(Babicci)</text>
+  <text x="320" y="267" font-size="11.2" fill="#525B67" font-weight="400">심사관을 움직일 강력한 사유(Compelling) 필수</text>
+  <line x1="573" y1="195" x2="584" y2="195" stroke="#1F242B" stroke-width="1.8"/>
+  <polygon points="587,195 581,191 581,199" fill="#1F242B"/>
+  <rect x="590" y="94" width="264" height="202" rx="10" fill="#EDF7F2" stroke="#1D6B48" stroke-width="1.3"/>
+  <rect x="590" y="94" width="264" height="30" rx="9" fill="#1D6B48"/>
+  <text x="604" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">STEP 03 · 결정 시점까지 확장</text>
+  <text x="604" y="149" font-size="13.2" font-weight="800" fill="#1F242B">접수 후 사정 변경까지 전면 반영</text>
+  <text x="604" y="170" font-size="11" font-weight="700" fill="#1D6B48">Waensila [2016] FCAFC 32</text>
+  <line x1="604" y1="182" x2="840" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="604" y="204" font-size="11.2" fill="#1F242B" font-weight="600">면제 사유는 비자 신청일 시점에 묶이지 않음!</text>
+  <text x="604" y="225" font-size="11.2" fill="#525B67" font-weight="400">심사·ART 재심 결정일까지 발생한 사정 포함</text>
+  <text x="604" y="246" font-size="11.2" fill="#525B67" font-weight="400">호주 시민 자녀 출산·중증 질환·돌봄 의존성</text>
+  <text x="604" y="267" font-size="11.2" fill="#525B67" font-weight="400">전문 의학·심리 감정서와 법리 의견서 결합</text>
+  <rect x="22" y="312" width="836" height="38" rx="8" fill="#FEF8EC" stroke="#ECD9B0" stroke-width="1"/>
+  <text x="36" y="335" font-size="11.2" font-weight="700" fill="#1F242B">실무 핵심: &#x27;서로 사랑하니 봐달라&#x27;는 탄원서는 Schedule 3에서 백전백패합니다. Waensila·Babicci 기준에 맞춘 객관적 손해 입증이 관건입니다.</text>
+</svg>

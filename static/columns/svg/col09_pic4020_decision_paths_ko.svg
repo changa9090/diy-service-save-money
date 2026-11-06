@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 366" width="100%" role="img" aria-label="PIC 4020 소명 레터 수령 후 대응 방식에 따른 법적 파장" style="max-width:880px;height:auto;display:block;font-family:'Pretendard Variable', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+  <rect x="0.5" y="0.5" width="879" height="365" rx="14" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="1"/>
+  <rect x="1" y="1" width="878" height="76" rx="13" fill="#FAF9F6"/>
+  <line x1="1" y1="77" x2="879" y2="77" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="26" y="28" font-size="11" font-weight="700" fill="#7A1F2B" letter-spacing="0.05em">이민성 진위 심사 · PIC 4020(s 57) 소명 요구 후 3가지 경로 비교</text>
+  <text x="26" y="51" font-size="16" font-weight="800" fill="#1F242B">PIC 4020 소명 레터 수령 후 대응 방식에 따른 법적 파장</text>
+  <text x="26" y="69" font-size="11.2" fill="#525B67">근거: Trivedi [2014] FCAFC 42 · Mudiyanselage [2013] FCA 266 · Arora [2016] FCAFC 35 · Kaur [2017] FCAFC 184</text>
+  <rect x="22" y="94" width="264" height="202" rx="10" fill="#FDF3F4" stroke="#7A1F2B" stroke-width="1.3"/>
+  <rect x="22" y="94" width="264" height="30" rx="9" fill="#7A1F2B"/>
+  <text x="36" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">OPTION A · 문제 서류만 철회</text>
+  <text x="36" y="149" font-size="13.2" font-weight="800" fill="#1F242B">비자 유지 채 서류 교체 → 패소</text>
+  <text x="36" y="170" font-size="11" font-weight="700" fill="#7A1F2B">Mudiyanselage [2013] FCA 266</text>
+  <line x1="36" y1="182" x2="272" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="36" y="204" font-size="11.2" fill="#1F242B" font-weight="600">이미 제출된 순간 &#x27;have given&#x27; 요건 성립</text>
+  <text x="36" y="225" font-size="11.2" fill="#525B67" font-weight="400">대행사가 몰래 넣었어도 신청인 귀책(Trivedi)</text>
+  <text x="36" y="246" font-size="11.2" fill="#525B67" font-weight="400">기술심사기관 제출 허위서류도 포함(Arora)</text>
+  <text x="36" y="267" font-size="11.2" fill="#525B67" font-weight="400">거절 확정 시 3년(신원은 10년) 입국금지</text>
+  <rect x="306" y="94" width="264" height="202" rx="10" fill="#FEF8EC" stroke="#9A6700" stroke-width="1.3"/>
+  <rect x="306" y="94" width="264" height="30" rx="9" fill="#9A6700"/>
+  <text x="320" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">OPTION B · 비자 단순 취하(s 49)</text>
+  <text x="320" y="149" font-size="13.2" font-weight="800" fill="#1F242B">형식상 3년 금지 회피 · 후폭풍</text>
+  <text x="320" y="170" font-size="11" font-weight="700" fill="#9A6700">Migration Act ss 48, 49 &amp; ICSE</text>
+  <line x1="320" y1="182" x2="556" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="320" y="204" font-size="11.2" fill="#1F242B" font-weight="600">결정 전 취하 시 4020(2)(a) 거절 기록은 회피</text>
+  <text x="320" y="225" font-size="11.2" fill="#525B67" font-weight="400">단, 내무부 ICSE 영구 위조의심 플래그 잔존</text>
+  <text x="320" y="246" font-size="11.2" fill="#525B67" font-weight="400">차기 비자 경력 불일치 시 재차 s 57 발동</text>
+  <text x="320" y="267" font-size="11.2" fill="#525B67" font-weight="400">본비자 만료 상태면 브리징 종료·s 48 장벽!</text>
+  <rect x="590" y="94" width="264" height="202" rx="10" fill="#EDF7F2" stroke="#1D6B48" stroke-width="1.3"/>
+  <rect x="590" y="94" width="264" height="30" rx="9" fill="#1D6B48"/>
+  <text x="604" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">OPTION C · 정면 법리 반박·면제</text>
+  <text x="604" y="149" font-size="13.2" font-weight="800" fill="#1F242B">고의성 부정 또는 4020(4) 면제</text>
+  <text x="604" y="170" font-size="11" font-weight="700" fill="#1D6B48">Trivedi [49] · Kaur [2017] FCAFC 184</text>
+  <line x1="604" y1="182" x2="840" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="604" y="204" font-size="11.2" fill="#1F242B" font-weight="600">단순 오기·무해한 착오 입증해 허위성 조각</text>
+  <text x="604" y="225" font-size="11.2" fill="#525B67" font-weight="400">ATO STP·은행·메타데이터 교차 포렌식</text>
+  <text x="604" y="246" font-size="11.2" fill="#525B67" font-weight="400">호주 시민·영주권 가족 중대 사익 면제 청구</text>
+  <text x="604" y="267" font-size="11.2" fill="#525B67" font-weight="400">향후 영주권까지 일관된 기록 방어선 구축</text>
+  <rect x="22" y="312" width="836" height="38" rx="8" fill="#FEF8EC" stroke="#ECD9B0" stroke-width="1"/>
+  <text x="36" y="335" font-size="11.2" font-weight="700" fill="#1F242B">긴급 원칙: s 57 소명 기한(통상 28일) 내에 무작정 취하 버튼을 누르지 말고, 비자 신분과 ICSE 기록 전체를 먼저 정밀 진단해야 합니다.</text>
+</svg>

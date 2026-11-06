@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 366" width="100%" role="img" aria-label="이혼 재산분할에서 부모님 지원 자금이 분류되는 3가지 법적 결과" style="max-width:880px;height:auto;display:block;font-family:'Pretendard Variable', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+  <rect x="0.5" y="0.5" width="879" height="365" rx="14" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="1"/>
+  <rect x="1" y="1" width="878" height="76" rx="13" fill="#FAF9F6"/>
+  <line x1="1" y1="77" x2="879" y2="77" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="26" y="28" font-size="11" font-weight="700" fill="#7A1F2B" letter-spacing="0.05em">부모 자금 지원 3갈래 운명 · 대여금 공제 vs 기여도 흡수 vs 시효 소멸</text>
+  <text x="26" y="51" font-size="16" font-weight="800" fill="#1F242B">이혼 재산분할에서 부모님 지원 자금이 분류되는 3가지 법적 결과</text>
+  <text x="26" y="69" font-size="11.2" fill="#525B67">근거: Pelly &amp; Nolan [2011] · Barda &amp; Zerri [2026] FedCFamC2F 122 · Maddock [2011] · Vadisanis [2014] FamCAFC 97</text>
+  <rect x="22" y="94" width="264" height="202" rx="10" fill="#EDF7F2" stroke="#1D6B48" stroke-width="1.3"/>
+  <rect x="22" y="94" width="264" height="30" rx="9" fill="#1D6B48"/>
+  <text x="36" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">OUTCOME 01 · 진정한 부채 공제</text>
+  <text x="36" y="149" font-size="13.2" font-weight="800" fill="#1F242B">원금 100% 먼저 부모님께 상환</text>
+  <text x="36" y="170" font-size="11" font-weight="700" fill="#1D6B48">Pelly &amp; Nolan [2011] ($320k 원금 인정)</text>
+  <line x1="36" y1="182" x2="272" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="36" y="204" font-size="11.2" fill="#1F242B" font-weight="600">송금 당시 작성된 정식 차용계약서·모기지</text>
+  <text x="36" y="225" font-size="11.2" fill="#525B67" font-weight="400">명확한 변제기·상환 일정 및 실제 이자 이체</text>
+  <text x="36" y="246" font-size="11.2" fill="#525B67" font-weight="400">단, 4년간 청구 안 한 이자 $126k는 배제!</text>
+  <text x="36" y="267" font-size="11.2" fill="#525B67" font-weight="400">부모의 제3자 소송참가(Intervention)로 방어</text>
+  <rect x="306" y="94" width="264" height="202" rx="10" fill="#EEF5F7" stroke="#1F4E5F" stroke-width="1.3"/>
+  <rect x="306" y="94" width="264" height="30" rx="9" fill="#1F4E5F"/>
+  <text x="320" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">OUTCOME 02 · 증여·기여도 편입</text>
+  <text x="320" y="149" font-size="13.2" font-weight="800" fill="#1F242B">부부 공동 풀 편입 후 비율만 참작</text>
+  <text x="320" y="170" font-size="11" font-weight="700" fill="#1F4E5F">Barda &amp; Zerri [2026] · Maddock [2011]</text>
+  <line x1="320" y1="182" x2="556" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="320" y="204" font-size="11.2" fill="#1F242B" font-weight="600">별거 후 뒤늦게 급조한 차용증은 기각(Barda)</text>
+  <text x="320" y="225" font-size="11.2" fill="#525B67" font-weight="400">&#x27;여유 될 때 갚아라&#x27; 구두 약속은 부채 불인정</text>
+  <text x="320" y="246" font-size="11.2" fill="#525B67" font-weight="400">지원 자녀 측 s 79(4) 재정 기여로만 반영</text>
+  <text x="320" y="267" font-size="11.2" fill="#525B67" font-weight="400">혼인 기간 길수록 기여도 가중치 희석 위험</text>
+  <rect x="590" y="94" width="264" height="202" rx="10" fill="#FDF3F4" stroke="#7A1F2B" stroke-width="1.3"/>
+  <rect x="590" y="94" width="264" height="30" rx="9" fill="#7A1F2B"/>
+  <text x="604" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">OUTCOME 03 · 6년 시효 소멸 함정</text>
+  <text x="604" y="149" font-size="13.2" font-weight="800" fill="#1F242B">&#x27;요구 시 상환&#x27; 대여금의 법적 증발</text>
+  <text x="604" y="170" font-size="11" font-weight="700" fill="#7A1F2B">Vadisanis [2014] FamCAFC 97 · Limitation Acts</text>
+  <line x1="604" y1="182" x2="840" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="604" y="204" font-size="11.2" fill="#1F242B" font-weight="600">만기 없는 대여금은 송금 당일 시효 즉시 기산!</text>
+  <text x="604" y="225" font-size="11.2" fill="#525B67" font-weight="400">6년간 일부 변제·서면 채무승인 없으면 소멸</text>
+  <text x="604" y="246" font-size="11.2" fill="#525B67" font-weight="400">NSW 등 주법상 채권 자체 소멸로 공제 불가</text>
+  <text x="604" y="267" font-size="11.2" fill="#525B67" font-weight="400">증여 추정(Presumption of Advancement) 작동</text>
+  <rect x="22" y="312" width="836" height="38" rx="8" fill="#FEF8EC" stroke="#ECD9B0" stroke-width="1"/>
+  <text x="36" y="335" font-size="11.2" font-weight="700" fill="#1F242B">실무 철칙: 별거 후 부모님과 허위·소급 차용증을 만들면 법정 신빙성만 무너집니다. 송금 경위와 시효 중단을 먼저 법리 검토하세요.</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 366" width="100%" role="img" aria-label="포괄연봉 상계(Set-off) 실패 메커니즘과 2026년 기업·근로자 리스크" style="max-width:880px;height:auto;display:block;font-family:'Pretendard Variable', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+  <rect x="0.5" y="0.5" width="879" height="365" rx="14" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="1"/>
+  <rect x="1" y="1" width="878" height="76" rx="13" fill="#FAF9F6"/>
+  <line x1="1" y1="77" x2="879" y2="77" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="26" y="28" font-size="11" font-weight="700" fill="#7A1F2B" letter-spacing="0.05em">연방법원 판례 구조 · 포괄연봉 상계 무력화와 2026년 제재</text>
+  <text x="26" y="51" font-size="16" font-weight="800" fill="#1F242B">포괄연봉 상계(Set-off) 실패 메커니즘과 2026년 기업·근로자 리스크</text>
+  <text x="26" y="69" font-size="11.2" fill="#525B67">근거: FWO v Woolworths &amp; Coles [2025] FCA 1092 · FWA s 327A · Payday Super (2026.7.1)</text>
+  <rect x="22" y="94" width="264" height="202" rx="10" fill="#FDF3F4" stroke="#7A1F2B" stroke-width="1.3"/>
+  <rect x="22" y="94" width="264" height="30" rx="9" fill="#7A1F2B"/>
+  <text x="36" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">TRAP 01 · 급여주기 합산 금지</text>
+  <text x="36" y="149" font-size="13.2" font-weight="800" fill="#1F242B">연간·26주 평균 상계 무효</text>
+  <text x="36" y="170" font-size="11" font-weight="700" fill="#7A1F2B">Woolworths / Coles [2025] FCA 1092</text>
+  <line x1="36" y1="182" x2="272" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="36" y="204" font-size="11.2" fill="#1F242B" font-weight="600">비수기 초과급여로 성수기 수당 상계 불가</text>
+  <text x="36" y="225" font-size="11.2" fill="#525B67" font-weight="400">매 급여주기(Pay Period) 내 개별 정산</text>
+  <text x="36" y="246" font-size="11.2" fill="#525B67" font-weight="400">주말·야간·연장근로 발생 즉시 미지급 확정</text>
+  <text x="36" y="267" font-size="11.2" fill="#525B67" font-weight="400">포괄연봉 문구만으로는 어워드 면책 불가</text>
+  <line x1="289" y1="195" x2="300" y2="195" stroke="#1F242B" stroke-width="1.8"/>
+  <polygon points="303,195 297,191 297,199" fill="#1F242B"/>
+  <rect x="306" y="94" width="264" height="202" rx="10" fill="#EEF5F7" stroke="#1F4E5F" stroke-width="1.3"/>
+  <rect x="306" y="94" width="264" height="30" rx="9" fill="#1F4E5F"/>
+  <text x="320" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">TRAP 02 · 입증책임 역전</text>
+  <text x="320" y="149" font-size="13.2" font-weight="800" fill="#1F242B">출퇴근 태그만으론 기록 위반</text>
+  <text x="320" y="170" font-size="11" font-weight="700" fill="#1F4E5F">FWA s 535 · Regs 3.33–3.34 · s 557C</text>
+  <line x1="320" y1="182" x2="556" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="320" y="204" font-size="11.2" fill="#1F242B" font-weight="600">단순 출입카드·로스터는 법정 기록 불인정</text>
+  <text x="320" y="225" font-size="11.2" fill="#525B67" font-weight="400">할증·초과근무 시간 별도 특정 보관 의무</text>
+  <text x="320" y="246" font-size="11.2" fill="#525B67" font-weight="400">위반 시 s 557C 입증책임 고용주 전면 전환</text>
+  <text x="320" y="267" font-size="11.2" fill="#525B67" font-weight="400">근로자 합리적 산정표 제출 시 방어 불능</text>
+  <line x1="573" y1="195" x2="584" y2="195" stroke="#1F242B" stroke-width="1.8"/>
+  <polygon points="587,195 581,191 581,199" fill="#1F242B"/>
+  <rect x="590" y="94" width="264" height="202" rx="10" fill="#FEF8EC" stroke="#9A6700" stroke-width="1.3"/>
+  <rect x="590" y="94" width="264" height="30" rx="9" fill="#9A6700"/>
+  <text x="604" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">TRAP 03 · 형사처벌·연금</text>
+  <text x="604" y="149" font-size="13.2" font-weight="800" fill="#1F242B">임금절도 징역형 &amp; Payday Super</text>
+  <text x="604" y="170" font-size="11" font-weight="700" fill="#9A6700">s 327A ($364 PU) · 12% SG (7 Bus Days)</text>
+  <line x1="604" y1="182" x2="840" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="604" y="204" font-size="11.2" fill="#1F242B" font-weight="600">고의 체불: 최고 징역 10년 / 체불액 3배</text>
+  <text x="604" y="225" font-size="11.2" fill="#525B67" font-weight="400">개인 $182만 · 법인 $910만 벌금 상한</text>
+  <text x="604" y="246" font-size="11.2" fill="#525B67" font-weight="400">2026.7.1 급여일 후 7영업일 내 12% 연금</text>
+  <text x="604" y="267" font-size="11.2" fill="#525B67" font-weight="400">미납 시 일복리 SGC 가산세 자동 부과</text>
+  <rect x="22" y="312" width="836" height="38" rx="8" fill="#FEF8EC" stroke="#ECD9B0" stroke-width="1"/>
+  <text x="36" y="335" font-size="11.2" font-weight="700" fill="#1F242B">실무 분기점: 소액(&lt;$50k)은 포털 계산기·Form 5로 직접 회수하고, $50,000+ 다년도 정산·기업 급여개편은 전문변호사가 대리합니다.</text>
+</svg>

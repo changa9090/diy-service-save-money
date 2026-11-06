@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 382" width="100%" role="img" aria-label="무제한 배상(General Protections) 입증 현실 vs 주별 경업금지 효력" style="max-width:880px;height:auto;display:block;font-family:'Pretendard Variable', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+  <rect x="0.5" y="0.5" width="879" height="381" rx="14" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="1"/>
+  <rect x="1" y="1" width="878" height="76" rx="13" fill="#FAF9F6"/>
+  <line x1="1" y1="77" x2="879" y2="77" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="26" y="28" font-size="11" font-weight="700" fill="#7A1F2B" letter-spacing="0.05em">임원·고연봉자 분쟁 · $190,100 기준선과 일반보호·경업금지 법리</text>
+  <text x="26" y="51" font-size="16" font-weight="800" fill="#1F242B">무제한 배상(General Protections) 입증 현실 vs 주별 경업금지 효력</text>
+  <text x="26" y="69" font-size="11.2" fill="#525B67">근거: FWA ss 340, 361, 382 · Roohizadegan (No 6) [2025] FCA 1619 · Just Group [2016] VSCA 334</text>
+  <rect x="22" y="94" width="408" height="218" rx="10" fill="#FDF3F4" stroke="#7A1F2B" stroke-width="1.3"/>
+  <rect x="22" y="94" width="408" height="32" rx="9" fill="#7A1F2B"/>
+  <text x="38" y="115" font-size="11.8" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">쟁점 1 · 일반보호(s 340) 역입증책임의 냉정한 현실</text>
+  <circle cx="42" cy="144" r="4" fill="#7A1F2B"/>
+  <text x="54" y="148" font-size="12.2" font-weight="800" fill="#1F242B">연봉 $190,100+ 임원은 일반 부당해고 제외</text>
+  <text x="54" y="167" font-size="11.1" fill="#525B67">어워드 미적용 고연봉자는 s 340 일반보호·계약위반으로만 다툽니다.</text>
+  <circle cx="42" cy="196" r="4" fill="#7A1F2B"/>
+  <text x="54" y="200" font-size="12.2" font-weight="800" fill="#1F242B">$520만 승소 판결 파기 후 최종 패소 (Roohizadegan)</text>
+  <text x="54" y="219" font-size="11.1" fill="#525B67">[2025] FCA 1619 재심리에서 성과·품위 사유 인정되어 청구 기각 + 소송비 패소.</text>
+  <circle cx="42" cy="248" r="4" fill="#7A1F2B"/>
+  <text x="54" y="252" font-size="12.2" font-weight="800" fill="#1F242B">결정권자의 주관적 해고 동기 입증 (Barclay)</text>
+  <text x="54" y="271" font-size="11.1" fill="#525B67">불만 제기와 해고 사이의 인과관계가 객관적 인사기록으로 반박되면 패소.</text>
+  <rect x="450" y="94" width="408" height="218" rx="10" fill="#EEF5F7" stroke="#1F4E5F" stroke-width="1.3"/>
+  <rect x="450" y="94" width="408" height="32" rx="9" fill="#1F4E5F"/>
+  <text x="466" y="115" font-size="11.8" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">쟁점 2 · 퇴사 후 경업금지(Restraint) 주별 효력</text>
+  <circle cx="470" cy="144" r="4" fill="#1F4E5F"/>
+  <text x="482" y="148" font-size="12.2" font-weight="800" fill="#1F242B">QLD · VIC 커먼로: 원칙적 무효 (Prima Facie Void)</text>
+  <text x="482" y="167" font-size="11.1" fill="#525B67">정당한 영업이익 보호 범위를 넘으면 문구 삭제(Blue-pencil) 외 전부 무효.</text>
+  <circle cx="470" cy="196" r="4" fill="#1F4E5F"/>
+  <text x="482" y="200" font-size="12.2" font-weight="800" fill="#1F242B">NSW 단독 예외: 법원 직권 축소 유효화 (s 4(1))</text>
+  <text x="482" y="219" font-size="11.1" fill="#525B67">Restraints of Trade Act 1976 (NSW)는 과도한 약정도 합리적 범위로 감축 집행.</text>
+  <circle cx="470" cy="248" r="4" fill="#1F4E5F"/>
+  <text x="482" y="252" font-size="12.2" font-weight="800" fill="#1F242B">2026.9 연방 재무부 경업금지 금지 법안 초안</text>
+  <text x="482" y="271" font-size="11.1" fill="#525B67">2027년 시행 목표로 $190,100 미만 근로자 경업금지 및 계단식 조항 전면 금지 추진.</text>
+  <rect x="22" y="328" width="836" height="38" rx="8" fill="#EDF7F2" stroke="#1D6B48" stroke-width="1"/>
+  <text x="36" y="351" font-size="11.2" font-weight="700" fill="#1D6B48">실무 핵심: 임원 해고 전 이사회 문서 설계와 이직 시 주(QLD vs NSW) 관할에 맞춘 경업금지 가처분 방어는 초기 48시간 내에 결정됩니다.</text>
+</svg>

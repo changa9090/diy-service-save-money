@@ -1,0 +1,43 @@
+{
+  "master_ko": [
+    "./static/previews/pdf/master_ko-1.png",
+    "./static/previews/pdf/master_ko-2.png",
+    "./static/previews/pdf/master_ko-3.png"
+  ],
+  "master_en": [
+    "./static/previews/pdf/master_en-1.png",
+    "./static/previews/pdf/master_en-2.png",
+    "./static/previews/pdf/master_en-3.png",
+    "./static/previews/pdf/master_en-4.png"
+  ],
+  "immi_ko": [
+    "./static/previews/pdf/immi_ko-1.png",
+    "./static/previews/pdf/immi_ko-2.png",
+    "./static/previews/pdf/immi_ko-3.png"
+  ],
+  "immi_en": [
+    "./static/previews/pdf/immi_en-1.png",
+    "./static/previews/pdf/immi_en-2.png",
+    "./static/previews/pdf/immi_en-3.png"
+  ],
+  "wages_ko": [
+    "./static/previews/pdf/wages_ko-1.png",
+    "./static/previews/pdf/wages_ko-2.png",
+    "./static/previews/pdf/wages_ko-3.png"
+  ],
+  "wages_en": [
+    "./static/previews/pdf/wages_en-1.png",
+    "./static/previews/pdf/wages_en-2.png",
+    "./static/previews/pdf/wages_en-3.png"
+  ],
+  "family_ko": [
+    "./static/previews/pdf/family_ko-1.png",
+    "./static/previews/pdf/family_ko-2.png",
+    "./static/previews/pdf/family_ko-3.png"
+  ],
+  "family_en": [
+    "./static/previews/pdf/family_en-1.png",
+    "./static/previews/pdf/family_en-2.png",
+    "./static/previews/pdf/family_en-3.png"
+  ]
+}

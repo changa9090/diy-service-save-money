@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 366" width="100%" role="img" aria-label="Why Annualised Set-Off Clauses Collapse &amp; 2026 Employer Exposure" style="max-width:880px;height:auto;display:block;font-family:'Pretendard Variable', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+  <rect x="0.5" y="0.5" width="879" height="365" rx="14" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="1"/>
+  <rect x="1" y="1" width="878" height="76" rx="13" fill="#FAF9F6"/>
+  <line x1="1" y1="77" x2="879" y2="77" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="26" y="28" font-size="11" font-weight="700" fill="#7A1F2B" letter-spacing="0.05em">FEDERAL COURT AUDIT · [2025] FCA 1092 &amp; PAYDAY SUPER</text>
+  <text x="26" y="51" font-size="16" font-weight="800" fill="#1F242B">Why Annualised Set-Off Clauses Collapse &amp; 2026 Employer Exposure</text>
+  <text x="26" y="69" font-size="11.2" fill="#525B67">Authorities: FWO v Woolworths &amp; Coles [2025] FCA 1092 · FWA s 327A · Payday Super (1 Jul 2026)</text>
+  <rect x="22" y="94" width="264" height="202" rx="10" fill="#FDF3F4" stroke="#7A1F2B" stroke-width="1.3"/>
+  <rect x="22" y="94" width="264" height="30" rx="9" fill="#7A1F2B"/>
+  <text x="36" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">TRAP 01 · PAY-PERIOD SILO</text>
+  <text x="36" y="149" font-size="13.2" font-weight="800" fill="#1F242B">No Cross-Cycle Averaging</text>
+  <text x="36" y="170" font-size="11" font-weight="700" fill="#7A1F2B">Woolworths / Coles [2025] FCA 1092</text>
+  <line x1="36" y1="182" x2="272" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="36" y="204" font-size="11.2" fill="#1F242B" font-weight="600">Quiet weeks cannot offset peak overtime</text>
+  <text x="36" y="225" font-size="11.2" fill="#525B67" font-weight="400">Award owed strictly inside each pay cycle</text>
+  <text x="36" y="246" font-size="11.2" fill="#525B67" font-weight="400">Unpaid penalties accrue each fortnight</text>
+  <text x="36" y="267" font-size="11.2" fill="#525B67" font-weight="400">Generic all-in wording fails Rossato</text>
+  <line x1="289" y1="195" x2="300" y2="195" stroke="#1F242B" stroke-width="1.8"/>
+  <polygon points="303,195 297,191 297,199" fill="#1F242B"/>
+  <rect x="306" y="94" width="264" height="202" rx="10" fill="#EEF5F7" stroke="#1F4E5F" stroke-width="1.3"/>
+  <rect x="306" y="94" width="264" height="30" rx="9" fill="#1F4E5F"/>
+  <text x="320" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">TRAP 02 · REVERSE ONUS</text>
+  <text x="320" y="149" font-size="13.2" font-weight="800" fill="#1F242B">Swipe Logs Fail s 535</text>
+  <text x="320" y="170" font-size="11" font-weight="700" fill="#1F4E5F">FWA s 535 · Regs 3.33–3.34 · s 557C</text>
+  <line x1="320" y1="182" x2="556" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="320" y="204" font-size="11.2" fill="#1F242B" font-weight="600">Raw gate swipes &amp; rosters fail reg 3.34</text>
+  <text x="320" y="225" font-size="11.2" fill="#525B67" font-weight="400">Must record discrete overtime/penalty hrs</text>
+  <text x="320" y="246" font-size="11.2" fill="#525B67" font-weight="400">Triggers s 557C reverse onus in Court</text>
+  <text x="320" y="267" font-size="11.2" fill="#525B67" font-weight="400">Employer must disprove worker schedule</text>
+  <line x1="573" y1="195" x2="584" y2="195" stroke="#1F242B" stroke-width="1.8"/>
+  <polygon points="587,195 581,191 581,199" fill="#1F242B"/>
+  <rect x="590" y="94" width="264" height="202" rx="10" fill="#FEF8EC" stroke="#9A6700" stroke-width="1.3"/>
+  <rect x="590" y="94" width="264" height="30" rx="9" fill="#9A6700"/>
+  <text x="604" y="114" font-size="11.3" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">TRAP 03 · 2026 PENALTIES</text>
+  <text x="604" y="149" font-size="13.2" font-weight="800" fill="#1F242B">s 327A Crime &amp; Payday Super</text>
+  <text x="604" y="170" font-size="11" font-weight="700" fill="#9A6700">s 327A ($364 PU) · 12% SG (7 Bus Days)</text>
+  <line x1="604" y1="182" x2="840" y2="182" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="604" y="204" font-size="11.2" fill="#1F242B" font-weight="600">Intentional theft: 10 yrs / 3x shortfall</text>
+  <text x="604" y="225" font-size="11.2" fill="#525B67" font-weight="400">Max $1.82M indiv / $9.1M corp ($364 PU)</text>
+  <text x="604" y="246" font-size="11.2" fill="#525B67" font-weight="400">12% SG due within 7 bus days of payday</text>
+  <text x="604" y="267" font-size="11.2" fill="#525B67" font-weight="400">Daily compounding ATO SGC interest</text>
+  <rect x="22" y="312" width="836" height="38" rx="8" fill="#FEF8EC" stroke="#ECD9B0" stroke-width="1"/>
+  <text x="36" y="335" font-size="11.2" font-weight="700" fill="#1F242B">Cost-Smart Guide: Use our free Award Calculator &amp; Form 5 for &lt;$50k claims; retain counsel for &gt;$50k schedules &amp; B2B payroll audits.</text>
+</svg>

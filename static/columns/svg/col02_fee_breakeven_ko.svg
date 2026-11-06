@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 416" width="100%" role="img" aria-label="사건 유형별 예상 비용 소모(Fee Burn) 대 순자산 보존 트랙 비교 (2026–27 회계연도 기준)" style="max-width:880px;height:auto;display:block;font-family:'Pretendard Variable', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+  <rect x="0.5" y="0.5" width="879" height="415" rx="14" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="1"/>
+  <rect x="1" y="1" width="878" height="66" rx="13" fill="#FAF9F6"/>
+  <line x1="1" y1="67" x2="879" y2="67" stroke="#E3DFD7" stroke-width="1"/>
+  <text x="28" y="27" font-size="11" font-weight="700" fill="#7A1F2B" letter-spacing="0.06em">변호사 선임 손익분기점 · 내 사건은 어느 트랙에 놓여 있는가</text>
+  <text x="28" y="50" font-size="16.2" font-weight="800" fill="#1F242B">사건 유형별 예상 비용 소모(Fee Burn) 대 순자산 보존 트랙 비교 (2026–27 회계연도 기준)</text>
+  <rect x="22" y="84" width="836" height="68" rx="10" fill="#EDF7F2" stroke="#1D6B48" stroke-width="1.1"/>
+  <text x="38" y="108" font-size="13.5" font-weight="800" fill="#1F242B">트랙 A · 나홀로 온라인 이혼 (DIY)</text>
+  <text x="38" y="131" font-size="11.5" fill="#525B67">혼인 해소(s 48)만 필요한 경우 · 미성년 자녀 단독신청도 무출석 서면심사(s 98A)</text>
+  <rect x="615" y="95" width="228" height="22" rx="5" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="1"/>
+  <rect x="615" y="95" width="28" height="22" rx="5" fill="#1D6B48" opacity="0.18"/>
+  <text x="625" y="110" font-size="11.8" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#1D6B48">$1,170 (감면 $390)</text>
+  <text x="840" y="136" text-anchor="end" font-size="11.2" font-weight="700" fill="#1F242B">변호사비 $0</text>
+  <rect x="22" y="164" width="836" height="68" rx="10" fill="#EEF5F7" stroke="#1F4E5F" stroke-width="1.1"/>
+  <text x="38" y="188" font-size="13.5" font-weight="800" fill="#1F242B">트랙 B · 박앤코 확정수임료 합의명령</text>
+  <text x="38" y="211" font-size="11.5" fill="#525B67">합의 윤곽 완성 시 · 영구 집행력 + 부동산 인지세 면제 + 연금 수탁자 28일 통지 포함</text>
+  <rect x="615" y="175" width="228" height="22" rx="5" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="1"/>
+  <rect x="615" y="175" width="82" height="22" rx="5" fill="#1F4E5F" opacity="0.18"/>
+  <text x="625" y="190" font-size="11.8" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#1F4E5F">$4,950 + 인지대 $215</text>
+  <text x="840" y="216" text-anchor="end" font-size="11.2" font-weight="700" fill="#1F242B">약 4주 서면 종결</text>
+  <rect x="22" y="244" width="836" height="68" rx="10" fill="#FEF8EC" stroke="#9A6700" stroke-width="1.1"/>
+  <text x="38" y="268" font-size="13.5" font-weight="800" fill="#1F242B">트랙 C · 소액재산 법원 트랙 (PPP)</text>
+  <text x="38" y="291" font-size="11.5" fill="#525B67">소액 다툼 시 법원 주도 간이 공개·조정(수수료 $510) 활용 · 과도한 수임료 소모 방지</text>
+  <rect x="615" y="255" width="228" height="22" rx="5" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="1"/>
+  <rect x="615" y="255" width="155" height="22" rx="5" fill="#9A6700" opacity="0.18"/>
+  <text x="625" y="270" font-size="11.8" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#9A6700">연금 제외 순자산 ≤ $550k</text>
+  <text x="840" y="296" text-anchor="end" font-size="11.2" font-weight="700" fill="#1F242B">조정 화해율 76.2%</text>
+  <rect x="22" y="324" width="836" height="68" rx="10" fill="#FDF3F4" stroke="#7A1F2B" stroke-width="1.1"/>
+  <text x="38" y="348" font-size="13.5" font-weight="800" fill="#1F242B">트랙 D · 전면 본안 재판 끝장 소송</text>
+  <text x="38" y="371" font-size="11.5" fill="#525B67">은닉 자산·중대 폭력·고액 분쟁 외에 감정싸움으로 진입하면 순자산 대부분이 수임료로 증발</text>
+  <rect x="615" y="335" width="228" height="22" rx="5" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="1"/>
+  <rect x="615" y="335" width="228" height="22" rx="5" fill="#7A1F2B" opacity="0.18"/>
+  <text x="625" y="350" font-size="11.8" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#7A1F2B">양측 합산 $80k–$180k+</text>
+  <text x="840" y="376" text-anchor="end" font-size="11.2" font-weight="700" fill="#1F242B">15.8~27개월 소요</text>
+</svg>

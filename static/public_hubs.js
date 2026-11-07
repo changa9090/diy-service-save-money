@@ -7,22 +7,22 @@
     ko: {
       cmDiyKicker: "1단계 · 혼자 해결하면 변호사비를 아끼는 단계",
       cmInflectKicker: "2단계 · 혼자 진행을 멈추고 박앤코 변호사를 찾아야 할 순간",
-      cmRiskKicker: "꼭 기억하세요 · 이 타이밍을 놓치면 생기는 손해",
+      cmRiskKicker: "유의 사항 · 법정 기한 도과 시 발생하는 불이익",
 
       pracAll: "전체 보기 (13)",
       pracEmp: "월급·직장 문제 (5)",
       pracFam: "이혼·재산·자녀 (4)",
       pracImmi: "비자·영주권 (4)",
-      whyHeading: "왜 이 방법으로 진행하는 게 나에게 가장 이득일까요?",
-      stepsHeading: "지금 바로 따라 하실 순서",
+      whyHeading: "이 경로가 실수령액 보전에 유리한 이유",
+      stepsHeading: "단계별 진행 절차",
       empPresetCustom: "직접 입력 · 계약서 시급을 내가 직접 적어 넣기",
       jumpDirBtn: "25개 업종 · 129개 직급 전체 시급표 보기 ↓",
       jumpDisambBtn: "헷갈리기 쉬운 업종 구분 & 주의할 판례 (4가지) ↓",
-      quickSearchEmpty: "찾으시는 직무가 보이지 않아요. 한식당, 바리스타, 타일, 정육, 청소, 필라테스, NDIS처럼 쉬운 단어로 입력해 보세요.",
+      quickSearchEmpty: "일치하는 직무가 검색되지 않습니다. 한식당·바리스타·타일·정육·청소·필라테스·NDIS 등 핵심 직종명으로 다시 입력해 주십시오.",
       quickLoadBtn: "이 시급 넣기",
       customModeTitle: "내 시급 직접 입력하기",
-      customModeDesc: "근로계약서에 적힌 약정 시급이나 회사 단체협약(Enterprise Agreement) 시급을 아래 숫자 칸에 직접 적어 넣어 계산해 보세요.",
-      lblTypicalJobs: "주로 어떤 일을 하나요?",
+      customModeDesc: "근로계약서상 약정 시급이나 기업별 단체협약(Enterprise Agreement) 시급을 아래 입력칸에 직접 기입하여 산정합니다.",
+      lblTypicalJobs: "주요 담당 업무 및 직종",
       lblClassRule: "이 직급에 해당하는 기준 (경력·자격증)",
       lblAllowances: "따로 챙겨야 할 수당",
       lblOtRule: "연장근무(오버타임) 시급 기준",
@@ -30,10 +30,10 @@
       openPayGuideBtn: "호주 정부 공식 시급표(PDF) ↗",
       openFwcAwardBtn: "업종 규정 원문 보기 ↗",
       disambOverline: "COVERAGE BOUNDARIES · FWA s 15AA · FEDERAL COURT & FWC PRECEDENTS",
-      disambTitle: "내 일자리는 어떤 시급표를 써야 할까요? 가장 많이 헷갈리는 4가지 기준",
+      disambTitle: "업종별 시급표(Modern Award) 적용 경계 및 필수 판례 기준 4가지",
       dirOverline: "COMPLETE EMPIRICAL DIRECTORY · 25 INSTRUMENTS & 129 CLASSIFICATIONS (FY 2026–27)",
       dirTitle: "한인들이 많이 일하는 25개 업종 · 129개 직급 공식 시급표 (버튼 한 번으로 계산기에 넣기)",
-      dirSub: "아래에서 일하신 업종이나 직무를 찾은 뒤 '계산기에 넣기 ↑' 버튼을 누르면 평일·주말·야간·연장근무 시급이 위 계산기에 자동으로 채워져요.",
+      dirSub: "아래에서 업종이나 직무를 선택한 뒤 '계산기에 넣기 ↑' 버튼을 누르면 평일·주말·야간·연장근무 법정 시급이 상단 계산기에 자동 반영됩니다.",
       dirSearchPh: "업종·직무 검색하기 (예: 한식당, 요리사, 바리스타, 타일, 정육, 농장, 청소, 필라테스, NDIS, 치과, 어린이집, 물류...)",
       dirExpandAll: "모두 펼치기",
       dirCollapseAll: "모두 접기",
@@ -43,61 +43,71 @@
       dirThEveOt: "저녁·야간 / 연장근무 시급",
       dirThAction: "계산기에 넣기",
       dirLoadBtn: "계산기에 넣기 ↑",
-      dirLoadedToast: "선택하신 업종과 직급 시급이 위 계산기에 자동으로 들어갔어요.",
+      dirLoadedToast: "선택하신 업종과 직급의 법정 시급이 계산기에 반영되었습니다.",
       dirPtNotePrefix: "파트타임 전용 시급(+15% 별도 적용): ",
 
       // Employment Payslip & Regulator Cards
       payslipOverline: "FWA ss 535–536 & reg 3.46 · s 557C REVERSE ONUS",
-      payslipTitle: "급여명세서(페이슬립) 안 줬을 때 확인표 & 7일 내 지급 요청서 자동 작성기",
-      payslipSub: "해당하는 항목에 체크하고 이름과 가게 법인명을 적으면 사장님에게 이메일이나 문자로 바로 보낼 수 있는 공식 지급 요청서(7일 기한)가 만들어져요.",
-      lblWorkerName: "내 이름 (영문 권장)",
-      phWorkerName: "예: Hong Gil Dong",
-      lblEmployerName: "사장님 회사 법인명 (Pty Ltd / ABN)",
-      phEmployerName: "예: ABC Hospitality Pty Ltd",
-      lblWorkPeriod: "일한 기간",
-      phWorkPeriod: "예: 2025.10 – 2026.06",
-      copyDemandBtn: "완성된 7일 지급 요청서 복사하기",
-      copiedDemandToast: "7일 내 급여명세서·밀린 월급 지급 요청서가 복사되었어요.",
+      payslipTitle: "급여명세서(Payslip) 법령 위반 점검 & 7일 정식 지급 요구서(Letter of Demand) 작성기",
+      payslipSub: "위반 항목과 당사자 정보를 입력하면 호주 고용주에게 즉시 송달할 수 있는 정식 영문 지급 요구서(Fair Work Act ss 535-536 · s 557C 근거)와 한국어 대조 참조본이 생성됩니다.",
+      lblWorkerName: "근로자 성명 (영문 표기 권장)",
+      phWorkerName: "예: Gil Dong Hong",
+      lblEmployerName: "고용주 정식 법인명 (Pty Ltd / ABN)",
+      phEmployerName: "예: ABC Hospitality Pty Ltd (ABN 12 345 678 901)",
+      lblWorkPeriod: "재직 기간",
+      phWorkPeriod: "예: 1 October 2025 - 30 June 2026",
+      lblManualAward: "적용 어워드·직급 직접 기재 (선택)",
+      phManualAward: "미입력 시 별첨 정산표 기준으로 표기",
+      lblManualAmount: "청구 금액 직접 기재 (선택)",
+      phManualAmount: "예: $4,850.00 (미입력 시 별첨 정산표 기준)",
+      lblImportCalc: "상단 계산기에서 직접 산정한 업종·청구 금액을 요구서에 반영하기",
+      hintCalcNotRun: "초기 예시 수치는 요구서에 자동 삽입되지 않습니다. 상단 계산기에서 본인 근무시간·시급을 먼저 입력하시면 이 체크박스가 활성화됩니다.",
+      hintCalcReady: "직접 산정 완료: 체크박스를 선택하시면 계산 결과({award} · {amount})가 요구서에 반영됩니다.",
+      hintCalcImported: "반영 완료: 직접 산정하신 내역({award} · {amount})이 요구서 본문에 기재되었습니다.",
+      copyEnDemandBtn: "고용주 발송용 영문 서한만 복사하기",
+      copiedEnDemandToast: "호주 고용주 발송용 정식 영문 지급 요구서(Letter of Demand)가 복사되었습니다.",
+      copyDemandBtn: "영문 서한 + 한국어 참조본 전체 복사",
+      copiedDemandToast: "영문 정식 지급 요구서와 한국어 대조 참조본 전체가 복사되었습니다.",
 
       regOverline: "FREE GOVERNMENT REGULATORS · STATUTORY INVESTIGATION & PENALTY POWERS",
-      regTitle: "가게 조사나 과태료 처분, 밀린 연금 추징을 원하신다면 정부 기관에 무료로 신고하세요",
-      regSub: "일반 로펌이나 변호사에게는 사업장을 압수수색하거나 세무조사·과태료를 매길 권한이 없어요. 사장님이 법적 제재를 받게 하거나 밀린 퇴직연금을 국세청이 대신 받아주길 원하실 때는 비싼 변호사비를 쓰지 마시고 아래 호주 정부 기관에 무료로 신고해 보세요.",
+      regTitle: "사업장 근로감독·과태료 부과·미납 연금 추징은 호주 정부 기관에 무료로 신고하십시오",
+      regSub: "민간 로펌이나 변호사에게는 사업장 강제 조사나 행정 과태료 부과 권한이 없습니다. 법적 제재나 국세청 직권 연금 추징이 목적이라면 별도 수임료 지출 없이 아래 호주 정부 감독기관에 직접 신고하시기 바랍니다.",
       openAgencyBtn: "정부 무료 신고 페이지 열기 ↗",
 
       empBlogsOverline: "CURATED EMPLOYMENT LAW GUIDES & CASE COLUMNS",
-      empBlogsTitle: "밀린 월급 받기 · 해고 후 21일 대처 · 페이슬립 권리 쉬운 칼럼 모음",
-      readBlogCta: "글 읽어보기 ↗",
-      readColumnCta: "판례 이야기 읽기 →",
+      empBlogsTitle: "밀린 월급 받기 · 해고 후 21일 대처 · 페이슬립 권리 핵심 칼럼 모음",
+      readBlogCta: "칼럼 전문 보기 ↗",
+      readColumnCta: "판례 분석 읽기 →",
 
       // Family Hub
       famHeroKicker: "AUSTRALIAN FAMILY LAW · s 48 NO-FAULT SYSTEM & SETTLEMENT GUIDE",
-      famHeroTitle: "누가 잘못했는지 다투느라 재산을 깎아먹지 마시고 법원 도장 받은 합의서와 재산 확인에 집중하세요",
-      famHeroDesc: "호주 가족법(s 48)은 배우자의 외도나 잘못을 따져 위자료를 주는 제도가 아니에요. 그래서 잘잘못을 가리려고 싸움이 길어질수록 두 사람이 나눌 소중한 재산만 변호사비로 빠져나가요. 간단한 온라인 이혼과 초기 자녀 양육 조정은 아래 요약과 03번 설명서로 직접 진행하시고, 합의한 내용을 법원 명령서(Consent Orders)로 확실히 못 박을 때나 연락을 피하며 재산을 숨기는 배우자를 협상 자리로 불러내야 할 때 박앤코를 찾아 주세요.",
+      famHeroTitle: "유책 공방으로 재산을 소진하기보다 법원 합의명령과 재산 공개 확보에 집중하십시오",
+      famHeroDesc: "호주 가족법(s 48)은 배우자의 외도나 귀책사유를 따져 위자료를 산정하지 않습니다. 따라서 유책 공방이 길어질수록 분할 대상 순자산만 법률 비용으로 소진됩니다. 단순 온라인 이혼과 초기 양육 조정은 아래 요약 및 03번 설명서로 직접 진행하실 수 있으며 합의 내용을 법원 합의명령(Consent Orders)으로 확정하거나 비협조 배우자의 은닉 재산 공개를 청구해야 할 때 법무법인 박앤코에 문의하시기 바랍니다.",
       dlFamPdfBtn: "03번 가족법 요약 PDF 받기",
       readFamCookbookBtn: "03번 가족법 설명서 전체 읽기",
       openFamJotformHeroBtn: "가족법 온라인 상담 질문지 작성 ↗",
 
       famTracksOverline: "WHEN LEGAL REPRESENTATION PROTECTS YOUR EQUITY · 2 KEY INFLECTION POINTS",
-      famTracksTitle: "호주 이혼·재산분할에서 변호사를 선임하는 것이 내 재산을 지켜 주는 두 가지 순간",
+      famTracksTitle: "호주 이혼·재산분할에서 변호사를 선임하는 것이 순자산을 지켜 주는 두 가지 시점",
       famChecklistOverline: "PRE-CONSULTATION READINESS CHECK · FASTER & MORE ACCURATE ADVICE",
-      famChecklistTitle: "가족법 상담 신청 전 30초 준비물 확인",
-      famChecklistSub: "아래 세 가지만 미리 메모해 두시면 첫 검토부터 훨씬 빠르고 정확하게 내 몫과 해결 방법을 안내받으실 수 있어요.",
+      famChecklistTitle: "가족법 상담 신청 전 30초 준비 사항 점검",
+      famChecklistSub: "아래 세 가지 항목을 미리 정리해 두시면 초기 법률 검토 단계에서 보다 신속하고 정확하게 분할 기준과 대응 절차를 안내받으실 수 있습니다.",
       famJotformCtaBtn: "가족법 온라인 상담 질문지 열기 ↗",
       famBlogsOverline: "CURATED FAMILY LAW DEEP-DIVE COLUMNS",
-      famBlogsTitle: "부모님 지원금 · 가족신탁 · 합의명령 · 파트너비자 결별 실제 판례 이야기",
+      famBlogsTitle: "부모님 지원금 · 가족신탁 · 합의명령 · 파트너비자 결별 실제 판례 분석",
 
       // Immigration Hub
       immiHeroKicker: "STEP #1 FREE SELF-CHECK · 714 OCCUPATIONS, CV MATCHING & PR POINTS",
-      immiHeroTitle: "내 경력으로 어떤 호주 비자·영주권이 될까? 상담비 쓰기 전에 무료로 먼저 확인해 보세요",
-      immiHeroDesc: "처음 비자 방향을 알아볼 때부터 비싼 유료 상담비를 쓰실 필요가 없어요. 박앤코가 무료로 공개한 비자 솔루션 가이드에서 714개 직업군과 숨은 까다로운 조건(Caveat)을 먼저 찾아보세요. 내 이력서(CV)를 서버 저장 없이 안전하게 대조해 보고 영주권 점수 계산기와 48편의 전문변호사 설명 영상까지 한자리에서 챙기실 수 있어요.",
+      immiHeroTitle: "본인 경력에 맞는 호주 비자·영주권 경로, 유료 상담 전 무료 도구로 먼저 점검하십시오",
+      immiHeroDesc: "초기 비자 경로 탐색 단계부터 유료 상담 비용을 지출하실 필요가 없습니다. 법무법인 박앤코가 무료로 공개한 비자 솔루션 가이드에서 714개 직업군과 세부 직무 조건(Caveat)을 먼저 확인하시기 바랍니다. 브라우저 내에서 서버 저장 없이 안전하게 이력서(CV)를 대조하고 영주권 점수 계산기와 전문변호사 브리핑 자료를 한자리에서 살펴보실 수 있습니다.",
       openVisaGuideBtn: "무료 호주 비자 솔루션 가이드 열기 ↗",
       dlImmiPdfBtn: "01번 이민 서류 요약 PDF 받기",
       readImmiCookbookBtn: "01번 이민 설명서 전체 읽기",
 
       immiEscOverline: "QLS ACCREDITED SPECIALIST · CRITICAL LEGAL INFLECTION POINTS",
-      immiEscTitle: "단 하루만 늦거나 서류 한 줄만 잘못 내도 돌이킬 수 없는 순간, 이때는 꼭 전문변호사와 상의하세요",
+      immiEscTitle: "단 하루의 기한 도과나 서류 오기재가 치명적인 변곡점에서는 즉시 전문변호사와 상의하십시오",
       immiBlogsOverline: "CURATED IMMIGRATION COLUMNS · AUSSIELIFE.ORG & PARK & CO",
-      immiBlogsTitle: "2026–27 스폰서 연봉($79,423) · 비자 거절 · 재심(ART) 실제 판례 이야기",
+      immiBlogsTitle: "2026–27 스폰서 연봉($79,423) · 비자 거절 · 행정재심기구(ART) 실제 판례 분석",
     },
 
     en: {
@@ -148,11 +158,21 @@
       lblWorkerName: "Employee Full Name",
       phWorkerName: "e.g. Jane Citizen",
       lblEmployerName: "Employer Legal Entity (Pty Ltd / ABN)",
-      phEmployerName: "e.g. ABC Hospitality Pty Ltd",
+      phEmployerName: "e.g. ABC Hospitality Pty Ltd (ABN 12 345 678 901)",
       lblWorkPeriod: "Employment Period",
-      phWorkPeriod: "e.g. Oct 2025 – Jun 2026",
-      copyDemandBtn: "Copy 7-Day Statutory Demand Letter",
-      copiedDemandToast: "7-day statutory payslip & wage demand letter copied to clipboard.",
+      phWorkPeriod: "e.g. 1 October 2025 – 30 June 2026",
+      lblManualAward: "Applicable Award / Classification (Optional)",
+      phManualAward: "Leave blank to cite attached Schedule of Underpayment",
+      lblManualAmount: "Claimed Shortfall Amount (Optional)",
+      phManualAmount: "e.g. $4,850.00 (or leave blank for Schedule)",
+      lblImportCalc: "Import my calculated Award & shortfall from the calculator above",
+      hintCalcNotRun: "Default example figures are never inserted automatically. Adjust your hours or award in the calculator above first if you wish to import them here.",
+      hintCalcReady: "Calculation ready: tick the box above to insert your calculated figure ({award} · {amount}) into this demand letter.",
+      hintCalcImported: "Imported: your calculated figure ({award} · {amount}) is now included in the formal demand letter.",
+      copyEnDemandBtn: "Copy Formal 7-Day Letter of Demand",
+      copiedEnDemandToast: "Formal 7-day statutory Letter of Demand copied to clipboard.",
+      copyDemandBtn: "Copy Formal 7-Day Letter of Demand",
+      copiedDemandToast: "Formal 7-day statutory Letter of Demand copied to clipboard.",
 
       regOverline: "FREE GOVERNMENT REGULATORS · STATUTORY INVESTIGATION & PENALTY POWERS",
       regTitle: "Need Workplace Audits, Statutory Penalties or Unpaid Super Enforcement? Report Free to Regulators",
@@ -236,7 +256,7 @@
             </div>
             <div class="blog-card-foot">
               ${metaHtml}
-              <span class="num" style="font-size:12.5px;font-weight:700;color:#7A1F2B;">${esc(ctaLbl)}</span>
+              <span class="num" style="font-size:12.5px;font-weight:700;color:#0E3A3E;">${esc(ctaLbl)}</span>
             </div>
           </a>`;
           })
@@ -400,52 +420,143 @@
     return String(raw || "").replace(/^(판례 주의보:\s*|Case Law Alert:\s*|Coverage Alert:\s*)/i, "");
   }
 
-  function buildPayslipDemandText(lang, worker, employer, period, awardLabel, shortfallsStr, checkedItems) {
+  const DEMAND_BREACH_CLAUSES = [
+    {
+      en: "Failure to issue a written or electronic pay slip within one (1) working day of payment, in contravention of section 536(1) of the Fair Work Act 2009 (Cth).",
+      ko: "급여 지급일로부터 1근무일 이내에 서면 또는 전자 급여명세서(Pay Slip)를 교부하지 아니한 행위 (Fair Work Act 2009 (Cth) 제536조 제1항 위반).",
+    },
+    {
+      en: "Omission from issued pay slips of the employer's full legal entity name and/or Australian Business Number (ABN), in contravention of regulations 3.46(1)(a)-(b) of the Fair Work Regulations 2009 (Cth).",
+      ko: "급여명세서에 고용주의 정식 법인명 및 사업자등록번호(ABN)를 누락한 행위 (Fair Work Regulations 2009 (Cth) 제3.46조 제1항 위반).",
+    },
+    {
+      en: "Omission from issued pay slips of ordinary hourly rates, penalty/overtime rates, and itemized hours worked at each applicable rate, in contravention of section 536(2) of the Fair Work Act 2009 (Cth) and regulation 3.46(3) of the Fair Work Regulations 2009 (Cth).",
+      ko: "급여명세서에 평일·주말·공휴일·연장근무별 적용 시급 및 시간대별 실제 근로시간 기재를 누락한 행위 (Fair Work Act 2009 제536조 제2항 및 동 시행령 제3.46조 제3항 위반).",
+    },
+    {
+      en: "Omission of mandatory Superannuation Guarantee contribution amounts and fund details (Fair Work Regulations 2009 (Cth) reg 3.46(5)) and/or non-remittance of statutory 12% Ordinary Time Earnings superannuation.",
+      ko: "급여명세서상 퇴직연금(Superannuation) 납부액·연금펀드 기재를 누락하거나 일반근무급여(OTE) 기준 법정 12% 퇴직연금을 미납한 행위 (동 시행령 제3.46조 제5항 위반).",
+    },
+    {
+      en: "Issuance of false or misleading pay slips and/or unrecorded cash-in-hand wage payments that understate actual hours worked, in contravention of section 536(3) of the Fair Work Act 2009 (Cth).",
+      ko: "실제 근로시간·지급액을 축소 기재한 허위·부실 급여명세서 발급 또는 장부 외 현금 지급 행위 (Fair Work Act 2009 제536조 제3항 위반).",
+    },
+    {
+      en: "Failure to make and keep complete, accurate employee time and wages records for seven (7) years, in contravention of section 535 of the Fair Work Act 2009 (Cth) and regulations 3.31-3.34 of the Fair Work Regulations 2009 (Cth).",
+      ko: "정확한 출퇴근 및 임금 대장을 작성하여 7년간 보존해야 할 법정 기록 보관 의무를 해태한 행위 (Fair Work Act 2009 제535조 및 동 시행령 제3.31조~제3.34조 위반).",
+    },
+  ];
+
+  function computeBrisbaneDemandDates() {
+    try {
+      const now = new Date();
+      const fmt = new Intl.DateTimeFormat("en-CA", {
+        timeZone: "Australia/Brisbane",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+      });
+      const issueStr = fmt.format(now);
+      const parts = issueStr.split("-").map(Number);
+      const dueUtc = new Date(Date.UTC(parts[0], parts[1] - 1, parts[2] + 7));
+      const dueStr = dueUtc.toISOString().slice(0, 10);
+      return { issueDate: issueStr, dueDate: dueStr };
+    } catch (_) {
+      return { issueDate: "Date of Service", dueDate: "7 Calendar Days from Service" };
+    }
+  }
+
+  function buildPayslipDemandBundle(lang, worker, employer, period, awardLabel, shortfallsStr, selectedIndices) {
+    const indices = Array.isArray(selectedIndices) && selectedIndices.length ? selectedIndices : [0, 4, 5];
+    const validClauses = indices
+      .map((i) => DEMAND_BREACH_CLAUSES[i])
+      .filter(Boolean);
+    const clausesToUse = validClauses.length ? validClauses : [DEMAND_BREACH_CLAUSES[0]];
+    const { issueDate, dueDate } = computeBrisbaneDemandDates();
+
+    const empTextEn = employer || "[Employer Legal Entity Name Pty Ltd & ABN]";
+    const wrkTextEn = worker || "[Employee Full Name]";
+    const perTextEn = period || "[Employment Start Date to End Date]";
+    const awLineEn = awardLabel ? `\nApplicable Industrial Instrument: ${awardLabel}` : "";
+    const amtTextEn = shortfallsStr
+      ? `${shortfallsStr} (comprising unpaid statutory wages/penalties and 12% Ordinary Time Earnings superannuation, as itemized in the attached Schedule of Underpayment)`
+      : "the full statutory wage, penalty, leave, and 12% Ordinary Time Earnings superannuation shortfall set out in the attached Schedule of Underpayment";
+
+    const bulletsEn = clausesToUse.map((c, idx) => `   (${String.fromCharCode(97 + idx)}) ${c.en}`).join("\n");
+
+    const enOnly = `WITHOUT PREJUDICE SAVE AS TO COSTS
+FORMAL STATUTORY DEMAND FOR PAY SLIPS, EMPLOYMENT RECORDS & RECTIFICATION OF UNDERPAYMENT
+(Fair Work Act 2009 (Cth) ss 535, 536 & 557C; Fair Work Regulations 2009 (Cth) regs 3.31-3.34 & 3.46)
+
+Date of Issue: ${issueDate}
+7-Day Compliance Deadline: 5:00 pm (AEST) on ${dueDate}
+To: ${empTextEn}
+From: ${wrkTextEn}
+Employment Period: ${perTextEn}${awLineEn}
+
+Dear Sir / Madam,
+
+1. Notice of Statutory Record-Keeping and Pay Slip Contraventions
+During the employment period stated above, your business failed to comply with mandatory civil remedy provisions under sections 535 and 536 of the Fair Work Act 2009 (Cth) and regulations 3.31-3.34 and 3.46 of the Fair Work Regulations 2009 (Cth), specifically:
+${bulletsEn}
+
+2. Statutory Reverse Onus of Proof (Fair Work Act 2009 (Cth) s 557C)
+Take formal notice that pursuant to section 557C of the Fair Work Act 2009 (Cth), where an employer contravenes record-keeping or pay slip obligations under section 535 or section 536 without reasonable excuse, the statutory burden of disproving the employee's allegations and Schedule of Underpayment rests upon the employer in court proceedings.
+
+3. Formal 7-Calendar-Day Demand
+Demand is hereby made that within seven (7) calendar days of the date of this letter (no later than 5:00 pm AEST on ${dueDate}), you:
+   (1) Provide complete and accurate copies of all pay slips, time and attendance records, wages ledgers, and superannuation remittance records for the entire employment period pursuant to regulation 3.42 of the Fair Work Regulations 2009 (Cth); and
+   (2) Remit in cleared funds, together with compliant Superannuation Guarantee contributions to my nominated fund, ${amtTextEn}.
+
+4. Notice of Escalation Without Further Warning
+If full production of records and rectification of all unpaid entitlements do not occur by ${dueDate}, I reserve all rights to commence regulatory and court recovery action without further notice, including:
+   - Lodging a formal investigation request with the Fair Work Ombudsman seeking civil penalties under Part 4-1 of the Fair Work Act 2009 (Cth);
+   - Reporting unpaid Superannuation Guarantee shortfalls to the Australian Taxation Office (ATO) for Superannuation Guarantee Charge assessment; and
+   - Commencing recovery proceedings in the Federal Circuit and Family Court of Australia (Form 5 under section 548, and where applicable, personal accessorial liability claims against directors/officers under section 550 of the Fair Work Act 2009 (Cth)).
+
+Yours faithfully,
+
+${wrkTextEn}`;
+
     if (lang === "en") {
-      const bullets = checkedItems.map((x) => `- ${x}`).join("\n");
-      const awLine = awardLabel ? `\nApplicable Modern Award & Classification: ${awardLabel}` : "";
-      return `STATUTORY DEMAND FOR PAYSLIPS, EMPLOYMENT RECORDS & UNDERPAYMENT RECTIFICATION
-(Fair Work Act 2009 (Cth) ss 535, 536 & 557C; Fair Work Regulations 2009 reg 3.46)
-
-To: ${employer || "(Employer Legal Entity Pty Ltd & ABN)"}
-From: ${worker || "(Employee Full Name)"}
-Employment Period: ${period || "(Employment Start – End Dates)"}${awLine}
-
-1. Notice of Statutory Payslip & Record-Keeping Breaches
-During the above employment period, you failed to comply with mandatory obligations under ss 535–536 of the Fair Work Act 2009 (Cth) and reg 3.46 of the Fair Work Regulations 2009, specifically:
-${bullets}
-
-2. Formal 7-Day Demand & Reverse Onus Warning (FWA s 557C)
-Take notice that under section 557C of the Fair Work Act 2009, where an employer fails to make/keep employment records or issue compliant payslips without reasonable excuse, the legal burden of disproving my wage calculation shifts onto the employer in Court proceedings.
-
-Within seven (7) calendar days of this notice, please:
-(a) Issue complete, accurate payslips and time/wage records for the entire employment period; and
-(b) Remit my self-calculated gross underpayment and 12% OTE Superannuation shortfall (${shortfallsStr || "per attached Schedule of Underpayment"}).
-
-If unresolved within 7 days, I intend to lodge a Fair Work Ombudsman regulatory complaint, an ATO unpaid superannuation report, and/or Federal Circuit and Family Court (Form 5) recovery proceedings without further notice.`;
+      return { enOnly, displayText: enOnly };
     }
 
-    const bulletsKo = checkedItems.map((x) => `• ${x}`).join("\n");
-    const awLineKo = awardLabel ? `\n적용 업종 시급표 및 직급: ${awardLabel}` : "";
-    return `공식 지급 요청서: 급여명세서(Payslip)·근무기록 전달 및 미지급 임금 정산 요청 (7일 기한)
-(관련 법령: 호주 공정근로법 Fair Work Act 2009 ss 535, 536 및 s 557C 입증책임 전환 규정)
+    const empTextKo = employer || "[고용주 정식 법인명 Pty Ltd 및 ABN 기재]";
+    const wrkTextKo = worker || "[근로자 영문 성명 기재]";
+    const perTextKo = period || "[재직 시작일 ~ 종료일]";
+    const awLineKo = awardLabel ? `\n적용 현대 어워드 및 직급: ${awardLabel}` : "";
+    const amtTextKo = shortfallsStr
+      ? `${shortfallsStr} (별첨 미지급 임금 정산표상 법정 시급·가산수당 차액 및 일반근무급여(OTE) 기준 12% 퇴직연금 합계액)`
+      : "별첨 미지급 임금 정산표(Schedule of Underpayment)에 기재된 법정 임금·가산수당 차액 및 12% 퇴직연금 전액";
+    const bulletsKo = clausesToUse.map((c, idx) => `   (${idx + 1}) ${c.ko}`).join("\n");
 
-받는 분 (고용주 법인명 및 ABN): ${employer || "(가게 간판 이름이 아닌 정식 Pty Ltd 법인명 및 ABN 입력)"}
-보내는 분 (근로자 이름): ${worker || "(근로자 영문 이름 입력)"}
-근무 기간: ${period || "(근무 시작일 ~ 종료일)"}${awLineKo}
+    const koRef = `[한국어 공식 대조 참조본 · 내용 확인용 (실제 발송 시 상단 PART 1 영문 서한 사용 권장)]
+제목: 급여명세서(Pay Slip)·근로기록 사본 교부 및 미지급 법정 임금·퇴직연금 정산 최고서 (7일 기한)
+근거 법령: 호주 공정근로법(Fair Work Act 2009 (Cth)) 제535조·제536조·제557C조 및 동 시행령 제3.31조~제3.34조·제3.46조
 
-1. 급여명세서 발급 및 근무기록 보관 의무 미이행 안내 (Fair Work Act ss 535–536, reg 3.46)
-귀 사업장은 위 근무 기간 동안 호주 공정근로법이 정한 아래 의무를 지키지 않았습니다:
+발송일: ${issueDate} / 이행 기한: ${dueDate} 17:00 (AEST)까지 (7일)
+수신 (고용주 법인명 및 ABN): ${empTextKo}
+발신 (근로자 성명): ${wrkTextKo}
+재직 기간: ${perTextKo}${awLineKo}
+
+1. 급여명세서 교부 및 근로기록 보존 의무 위반 통지
+귀 법인은 위 재직 기간 동안 호주 공정근로법 제535조·제536조 및 동 시행령이 정한 강행 법규를 다음과 같이 위반하였습니다.
 ${bulletsKo}
 
-2. 7일 이내 서류 전달·미지급액 정산 요청 및 법원 입증책임 안내 (s 557C)
-호주 공정근로법 제557C조에 따라 고용주가 정당한 사유 없이 급여명세서를 발급하지 않거나 근무기록을 보관하지 않은 경우 재판에서는 근로자가 정리한 근무시간과 미지급 금액이 틀렸다는 점을 고용주가 직접 증거로 입증해야 합니다.
+2. 소송상 입증책임 전환 고지 (Fair Work Act 2009 제557C조)
+호주 공정근로법 제557C조에 의거하여 고용주가 정당한 사유 없이 제535조(근로기록 보존) 또는 제536조(급여명세서 교부) 의무를 위반한 경우 법원 절차에서는 근로자가 산정한 근로시간 및 미지급 청구 내역이 사실과 다르다는 점을 고용주가 직접 반증할 책임을 부담합니다.
 
-이 요청서를 받으신 날로부터 7일(달력 기준) 안에 아래 두 가지를 이행해 주시기 바랍니다:
-(가) 전체 근무 기간의 정확한 급여명세서(Payslip)와 출퇴근·급여 지급 기록 사본 전달
-(나) 본인이 법정 시급 기준으로 계산한 미지급 급여 및 12% 퇴직연금(Super) 합계(${shortfallsStr || "첨부한 계산표 참조"}) 전액 입금
+3. 7일 이내 정식 이행 최고 사항
+본 서한 발송일로부터 7일 이내(${dueDate} 오후 5시까지)에 아래 두 가지 사항을 모두 이행하시기 바랍니다.
+   (1) 전체 재직 기간에 대한 적법한 급여명세서·출퇴근 기록·급여 지급 대장 및 퇴직연금 납부 내역 사본 일체 교부 (시행령 제3.42조 근거)
+   (2) ${amtTextKo}의 지정 계좌 및 지정 연금펀드 전액 납입
 
-7일 안에 정산이 이루어지지 않을 경우 별도 연락 없이 호주 공정근로옴부즈만(Fair Work Ombudsman) 신고와 호주 국세청(ATO) 미납 연금 신고 및 연방순회·가족법원 소액청구(Form 5) 절차를 진행할 예정임을 알려드립니다.`;
+4. 기한 도과 시 후속 법적 조치 예고
+위 기한(${dueDate})까지 서류 교부 및 전액 정산이 완료되지 않을 경우 별도 최고 없이 공정근로옴부즈만(Fair Work Ombudsman) 법정 과태료 조사 신청과 호주 국세청(ATO) 미납 퇴직연금 추징 신고 및 연방순회·가족법원(FCFCOA) 임금 청구 소송(제548조 Form 5 및 필요시 제550조 대표자 개인 배상책임 병합 청구)을 즉시 진행할 예정임을 엄중히 통지합니다.`;
+
+    const displayText = `[PART 1] FORMAL LETTER OF DEMAND (호주 고용주 발송용 영문 정식 서한)\n${enOnly}\n\n========================================================================\n\n${koRef}`;
+    return { enOnly, displayText };
   }
 
   function renderEmploymentExtras(ctx) {
@@ -498,6 +609,7 @@ ${bulletsKo}
           .join("");
         sectorPillsEl.querySelectorAll("[data-sb-sector]").forEach((btn) => {
           btn.addEventListener("click", () => {
+            state.hasUserCalculated = true;
             state.empSector = btn.dataset.sbSector;
             const visible = awards.filter((a) => state.empSector === "all" || a.sector === state.empSector);
             if (
@@ -621,13 +733,14 @@ ${bulletsKo}
         </div>
 
         <div class="class-trap-box">
-          <span class="insp-box-label num" style="color:#7A1F2B;">${esc(hs(state.lang, "lblTrapAlert"))}</span>
-          <div style="font-size:13px;line-height:1.55;color:#2B1A1D;">${fmtInlineMd(cleanTrap(aw.trap), esc)}</div>
+          <span class="insp-box-label num" style="color:#0E3A3E;">${esc(hs(state.lang, "lblTrapAlert"))}</span>
+          <div style="font-size:13px;line-height:1.55;color:#14282A;">${fmtInlineMd(cleanTrap(aw.trap), esc)}</div>
         </div>
       `;
     };
 
     const loadLevelIntoCalculator = (awardCode, levelId, { scroll = false } = {}) => {
+      state.hasUserCalculated = true;
       state.empSector = "all";
       state.empAwardCode = awardCode;
       state.empPresetId = levelId;
@@ -681,7 +794,7 @@ ${bulletsKo}
             <button type="button" class="quick-hit-row" data-q-aw="${esc(aw.award_code)}" data-q-lv="${esc(lv.id)}">
               <div>
                 <span class="doc-nav-badge num">${esc(aw.award_code)} · ${esc(aw.name)}</span>
-                <strong style="display:block;font-size:13.5px;color:#1A1211;">${esc(lv.title)}</strong>
+                <strong style="display:block;font-size:13.5px;color:#14282A;">${esc(lv.title)}</strong>
                 <span style="font-size:12px;color:#5A5654;">${fmtInlineMd(lv.jobs, esc)}</span>
               </div>
               <div class="quick-hit-rates num">
@@ -768,7 +881,7 @@ ${bulletsKo}
       const countSummary =
         state.lang === "en"
           ? `Showing ${matchedAwards.length} instruments · ${totalMatchedLevels} verified classifications`
-          : `현재 ${matchedAwards.length}개 업종 · ${totalMatchedLevels}개 세부 직급 보는 중`;
+          : `현재 ${matchedAwards.length}개 업종 · ${totalMatchedLevels}개 세부 직급 표시`;
 
       dirRoot.innerHTML = `
         <div class="hub-panel-card award-dir-shell">
@@ -847,8 +960,8 @@ ${bulletsKo}
                               return `
                               <tr>
                                 <td>
-                                  <strong style="color:#1A1211;">${esc(lv.title)}</strong>
-                                  <div style="font-size:12.5px;color:#7A1F2B;font-weight:700;margin-top:2px;">${fmtInlineMd(lv.jobs, esc)}</div>
+                                  <strong style="color:#14282A;">${esc(lv.title)}</strong>
+                                  <div style="font-size:12.5px;color:#0E3A3E;font-weight:700;margin-top:2px;">${fmtInlineMd(lv.jobs, esc)}</div>
                                   <div style="font-size:12px;color:#5A5654;margin-top:2px;">${fmtInlineMd(lv.duties, esc)}</div>
                                   ${
                                     hasPtDiff
@@ -860,7 +973,7 @@ ${bulletsKo}
                                   <strong>$${lv.ft.mf.toFixed(2)}</strong> / $${lv.ft.sat.toFixed(2)} / $${lv.ft.sun.toFixed(2)} / $${lv.ft.ph.toFixed(2)}
                                 </td>
                                 <td class="num rate-cell">
-                                  <strong style="color:#7A1F2B;">$${lv.casual.mf.toFixed(2)}</strong> / $${lv.casual.sat.toFixed(2)} / <strong>$${lv.casual.sun.toFixed(2)}</strong> / $${lv.casual.ph.toFixed(2)}
+                                  <strong style="color:#0E3A3E;">$${lv.casual.mf.toFixed(2)}</strong> / $${lv.casual.sat.toFixed(2)} / <strong>$${lv.casual.sun.toFixed(2)}</strong> / $${lv.casual.ph.toFixed(2)}
                                 </td>
                                 <td class="num rate-cell">
                                   <div>${lv.casual.eve > 0 ? `${evePfx}${lv.casual.eve.toFixed(2)}/h` : "-"}</div>
@@ -939,8 +1052,18 @@ ${bulletsKo}
     const dualEl = document.getElementById("empRightsAndRegulatorsContainer");
     if (dualEl) {
       const checks = emp.payslip_checklist || [];
+      const copyButtonsHtml =
+        state.lang === "en"
+          ? `<div class="demand-copy-bar">
+               <button type="button" class="btn-primary" id="psCopyDemandBtn">${esc(hs(state.lang, "copyDemandBtn"))}</button>
+             </div>`
+          : `<div class="demand-copy-bar">
+               <button type="button" class="btn-primary" id="psCopyEnOnlyBtn">${esc(hs(state.lang, "copyEnDemandBtn"))}</button>
+               <button type="button" class="btn-outline demand-btn-secondary" id="psCopyDemandBtn">${esc(hs(state.lang, "copyDemandBtn"))}</button>
+             </div>`;
+
       dualEl.innerHTML = `
-        <div class="hub-panel-card">
+        <div class="hub-panel-card" id="payslipAuditCard">
           <span class="section-overline num">${esc(hs(state.lang, "payslipOverline"))}</span>
           <h3 class="section-title-sm">${esc(hs(state.lang, "payslipTitle"))}</h3>
           <p class="section-subdesc" style="max-width:none;margin:6px 0 12px;">${esc(hs(state.lang, "payslipSub"))}</p>
@@ -960,6 +1083,24 @@ ${bulletsKo}
             </label>
           </div>
 
+          <div class="demand-calc-import-box">
+            <label class="demand-calc-import-toggle" for="psImportCalcCheck">
+              <input type="checkbox" id="psImportCalcCheck" ${state.hasUserCalculated && state.importCalcToDemand ? "checked" : ""} ${state.hasUserCalculated ? "" : "disabled"}>
+              <span>${esc(hs(state.lang, "lblImportCalc"))}</span>
+            </label>
+            <p class="demand-calc-import-hint" id="psCalcImportHint"></p>
+            <div class="demand-manual-grid">
+              <div class="demand-manual-field">
+                <label for="psManualAwardInput">${esc(hs(state.lang, "lblManualAward"))}</label>
+                <input type="text" id="psManualAwardInput" placeholder="${esc(hs(state.lang, "phManualAward"))}">
+              </div>
+              <div class="demand-manual-field">
+                <label for="psManualAmountInput">${esc(hs(state.lang, "lblManualAmount"))}</label>
+                <input type="text" id="psManualAmountInput" placeholder="${esc(hs(state.lang, "phManualAmount"))}">
+              </div>
+            </div>
+          </div>
+
           <div class="check-list-grid" id="psChecklistWrap">
             ${checks
               .map(
@@ -972,8 +1113,8 @@ ${bulletsKo}
               .join("")}
           </div>
 
-          <textarea id="psDemandPreview" class="email-textarea" readonly style="min-height:185px;margin-bottom:10px;"></textarea>
-          <button type="button" class="btn-primary" id="psCopyDemandBtn">${esc(hs(state.lang, "copyDemandBtn"))}</button>
+          <textarea id="psDemandPreview" class="email-textarea" readonly style="min-height:230px;margin-bottom:4px;"></textarea>
+          ${copyButtonsHtml}
         </div>
 
         <div class="hub-panel-card">
@@ -986,7 +1127,7 @@ ${bulletsKo}
                 (r) => `
               <div class="regulator-card">
                 <div class="regulator-head">
-                  <strong style="font-size:14.5px;color:#1A1211;">${esc(r.agency)}</strong>
+                  <strong style="font-size:14.5px;color:#14282A;">${esc(r.agency)}</strong>
                   <span class="gate-pill num">${esc(r.phone)}</span>
                 </div>
                 <p style="margin:0 0 9px;font-size:13px;color:#4A4543;line-height:1.5;">${esc(r.when)}</p>
@@ -998,37 +1139,82 @@ ${bulletsKo}
         </div>
       `;
 
+      let latestDemandBundle = { enOnly: "", displayText: "" };
+
       const refreshDemand = () => {
         const w = document.getElementById("psWorkerInput")?.value.trim() || "";
         const e = document.getElementById("psEmployerInput")?.value.trim() || "";
         const p = document.getElementById("psPeriodInput")?.value.trim() || "";
-        const selected = [];
+        const manualAw = document.getElementById("psManualAwardInput")?.value.trim() || "";
+        const manualAmt = document.getElementById("psManualAmountInput")?.value.trim() || "";
+
+        const impCb = document.getElementById("psImportCalcCheck");
+        const hintEl = document.getElementById("psCalcImportHint");
+        const canImport = Boolean(state.hasUserCalculated);
+        if (impCb) {
+          impCb.disabled = !canImport;
+          if (!canImport) {
+            impCb.checked = false;
+            state.importCalcToDemand = false;
+          } else {
+            impCb.checked = Boolean(state.importCalcToDemand);
+          }
+        }
+
+        const useImported = Boolean(canImport && state.importCalcToDemand);
+        if (hintEl) {
+          if (!canImport) {
+            hintEl.textContent = hs(state.lang, "hintCalcNotRun");
+          } else {
+            const tpl = hs(state.lang, useImported ? "hintCalcImported" : "hintCalcReady");
+            hintEl.textContent = tpl
+              .replace("{award}", state.selectedAwardLabel || "-")
+              .replace("{amount}", state.lastCalculatedSummaryAmount || "-");
+          }
+        }
+
+        const effectiveAward = useImported ? state.selectedAwardLabel || manualAw : manualAw;
+        const effectiveAmount = useImported ? state.lastCalculatedSummaryAmount || manualAmt : manualAmt;
+
+        const selectedIndices = [];
         dualEl.querySelectorAll("[data-ps-check]").forEach((cb) => {
           if (cb.checked) {
             const idx = parseInt(cb.dataset.psCheck, 10);
-            if (checks[idx]) selected.push(checks[idx]);
+            if (!Number.isNaN(idx)) selectedIndices.push(idx);
           }
         });
-        const chosen = selected.length ? selected : [checks[0]];
+        const chosenIndices = selectedIndices.length ? selectedIndices : [0, 4, 5];
+
+        latestDemandBundle = buildPayslipDemandBundle(
+          state.lang,
+          w,
+          e,
+          p,
+          effectiveAward,
+          effectiveAmount,
+          chosenIndices
+        );
+
         const preview = document.getElementById("psDemandPreview");
         if (preview) {
-          preview.value = buildPayslipDemandText(
-            state.lang,
-            w,
-            e,
-            p,
-            state.selectedAwardLabel || "",
-            state.lastCalculatedSummaryAmount || "",
-            chosen
-          );
+          preview.value = latestDemandBundle.displayText;
         }
       };
 
-      ["psWorkerInput", "psEmployerInput", "psPeriodInput"].forEach((id) => {
-        document.getElementById(id)?.addEventListener("input", refreshDemand);
+      ["psWorkerInput", "psEmployerInput", "psPeriodInput", "psManualAwardInput", "psManualAmountInput"].forEach(
+        (id) => {
+          document.getElementById(id)?.addEventListener("input", refreshDemand);
+        }
+      );
+      document.getElementById("psImportCalcCheck")?.addEventListener("change", (ev) => {
+        state.importCalcToDemand = Boolean(state.hasUserCalculated && ev.target.checked);
+        refreshDemand();
       });
       dualEl.querySelectorAll("[data-ps-check]").forEach((cb) => {
         cb.addEventListener("change", refreshDemand);
+      });
+      document.getElementById("psCopyEnOnlyBtn")?.addEventListener("click", () => {
+        copyText(latestDemandBundle.enOnly || "", hs(state.lang, "copiedEnDemandToast"));
       });
       document.getElementById("psCopyDemandBtn")?.addEventListener("click", () => {
         const txt = document.getElementById("psDemandPreview")?.value || "";
@@ -1203,7 +1389,7 @@ ${bulletsKo}
         ${(immi.escalation_tracks || [])
           .map(
             (et) => `
-          <div class="pillar-card" style="border-top-color:#7A1F2B;display:flex;flex-direction:column;justify-content:space-between;gap:14px;">
+          <div class="pillar-card" style="border-top-color:#0E3A3E;display:flex;flex-direction:column;justify-content:space-between;gap:14px;">
             <div>
               <span class="verdict-chip verdict-retain num">${esc(et.badge)}</span>
               <h4 class="shelf-title" style="margin-top:6px;">${esc(et.title)}</h4>

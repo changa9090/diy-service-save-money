@@ -36,13 +36,13 @@
       verifiedBadge: "2026–27 최신 호주 법령·수수료 기준 반영",
       portalTitle: "법무법인 박앤코 · 혼자 해결하는 호주 법률 가이드 & 꼭 변호사를 찾아야 할 순간",
       kpi1Num: "배보다 배꼽 크지 않게",
-      kpi1: "혼자 할 수 있는 단계는 무료 도구로 비용을 아끼고 꼭 필요한 순간에만 변호사를 찾으세요",
+      kpi1: "혼자 진행 가능한 단계는 무료 도구로 비용을 아끼고 필수 변곡점에만 변호사를 선임하십시오",
       kpi2Num: "25개 업종 · 자동계산",
-      kpi2: "못 받은 월급·주말수당·12% 연금을 직접 계산해 내 몫을 지키고 7일 내 지급 요청서까지 만드세요",
+      kpi2: "미지급 임금·주말수당·12% 연금을 직접 산정하고 고용주 발송용 7일 지급 요구서까지 작성합니다",
       kpi3Num: "호주 가족법 · $4,950",
-      kpi3: "간단한 온라인 이혼은 혼자 쉽게 · 합의서 법원 확정(Consent Orders)과 연락 피하는 배우자 대응은 변호사와 함께",
-      kpi4Num: "판례 이야기 18편 · 32종",
-      kpi4: "이민·고용·가족법 실제 분쟁 사례 18편과 무료 PDF·워드·엑셀·슬라이드 32종을 바로 열어보세요",
+      kpi3: "단순 온라인 이혼은 직접 신청하고 법원 합의명령(Consent Orders)과 비협조 배우자 대응은 변호사와 진행합니다",
+      kpi4Num: "판례 칼럼 18편 · 32종",
+      kpi4: "이민·고용·가족법 실제 판례 분석 18편과 무료 PDF·워드·엑셀·슬라이드 32종을 즉시 열람하실 수 있습니다",
 
       // Primary Navigation Tabs (7 Public Client Tabs)
       tabSelfHelp: "내 상황별 해결법 찾기",
@@ -55,23 +55,23 @@
 
       // Tab 0: Hero, Cost Matrix, Wizard & Quick Shelf
       heroPhilosophyOverline: "REALISTIC LEGAL ECONOMICS · DIY FIRST, RETAIN AT THE RIGHT INFLECTION POINT",
-      heroPhilosophyTitle: "변호사를 선임하면 오히려 손해인 사건이 있고 혼자 버티다 큰코다치는 순간도 있습니다",
+      heroPhilosophyTitle: "변호사를 선임하면 오히려 손해인 사건이 있고 혼자 대응하다 돌이키기 어려운 순간도 있습니다",
       heroPhilosophyDesc:
-        "호주에서는 재판에서 이겨도 내 변호사비를 상대방에게 받아낼 수 없는 사건이 꽤 많아요. 공정근로위원회(FWC) 일반 절차(s 611)나 법원 임금 소액청구($100,000 이하 · 공정근로법 s 570), 외도를 따지지 않는 단순 온라인 이혼 신청(가족법 s 48)이 대표적이에요. 이런 초기·소액 단계부터 변호사를 쓰면 받으실 돈보다 비용이 더 커질 수 있으니 이곳의 무료 계산기와 설명서로 먼저 직접 진행해 보세요. 반대로 이민·고용·가족법에서 하루라도 넘기면 기회가 사라지는 마감 기한(해고 21일 · 비자 재심 28일 · 이혼 후 재산분할 12개월)이 다가왔거나 비자 거절·고액 분쟁·법원 합의명령처럼 혼자 감당하기 어려운 순간에는 바로 박앤코 전문변호사와 상의하셔야 큰 손해를 막을 수 있어요.",
+        "호주에서는 승소하더라도 상대방에게 본인 변호사 비용을 청구할 수 없는 무비용 원칙 관할 사건이 적지 않습니다. 공정근로위원회(FWC) 일반 절차(s 611)와 법원 임금 소액청구($100,000 이하 · 공정근로법 s 570) 및 유책 사유를 따지지 않는 단순 온라인 이혼 신청(가족법 s 48)이 대표적입니다. 이러한 초기·소액 단계부터 수임료를 지출하면 실제 회수액보다 비용이 커질 수 있으므로 본 포털의 무료 계산기와 설명서로 먼저 직접 진행하시기 바랍니다. 반면 법정 제척기간(부당해고 21일 · 행정재심기구(ART) 재심 28일 · 이혼 확정 후 재산분할 12개월)이 임박했거나 비자 거절·고액 분쟁·법원 합의명령처럼 전문 대응이 필수적인 단계에서는 법무법인 박앤코 전문변호사와 상의하여 손실을 예방하시기 바랍니다.",
       jumpEmpChip: "못 받은 월급 계산기 & 지급요청서 →",
       jumpFamChip: "이혼 재산합의($4,950) & 배우자 대응 →",
       jumpImmiChip: "무료 비자 진단 & 거절·취소 대응 →",
 
       matrixOverline: "3-PRACTICE LEGAL COST & INFLECTION POINT GUIDE",
-      matrixTitle: "분야별 혼자 해결하면 돈 아끼는 단계와 전문가 확인이 필요한 순간",
-      matrixDesc: "지금 내 일이 어느 단계에 해당하는지 먼저 살펴보고 변호사비 낭비와 마감 기한 놓침을 함께 막아 보세요.",
+      matrixTitle: "분야별 혼자 해결하면 비용을 아끼는 단계와 전문가 검토가 필요한 시점",
+      matrixDesc: "현재 사안이 어느 단계에 해당하는지 먼저 점검하여 불필요한 비용 지출과 법정 기한 도과를 함께 예방하십시오.",
 
       wizOverline: "INTERACTIVE 13-SCENARIO SELF-ASSESSMENT",
-      wizTitle: "내 상황을 눌러보세요 · 혼자 해결하는 순서와 전문가 확인 기준을 바로 알려드려요",
+      wizTitle: "상황별 자가진단 · 직접 진행 절차와 변호사 선임 기준을 즉시 안내합니다",
 
       quickShelfOverline: "DIRECT WEB READER & A4 PDF MANUALS (4 GUIDES)",
       quickShelfTitle: "분야별 셀프 진행 설명서 & 호주 공식 서류 작성법 바로 읽기",
-      quickShelfDesc: "프로그램 설치 없이 4권의 설명서 전체 내용과 서류 체크리스트, 계산 공식, 요약 PDF를 화면에서 편하게 읽어보세요.",
+      quickShelfDesc: "별도 프로그램 설치 없이 4권의 설명서 전문과 서류 체크리스트 및 계산 공식과 요약 PDF를 웹에서 바로 열람하실 수 있습니다.",
       readInWebCta: "화면에서 바로 읽기 →",
       sectionsUnit: "개 단원",
 
@@ -79,7 +79,7 @@
       searchPlaceholder: "4권 설명서 한 번에 검색하기 (예: Form 888, 페이슬립, 연금, 합의명령, 비자 거절 28일...)",
       clearSearch: "지우기",
       manualListHeading: "셀프 진행 설명서 목록 (4권)",
-      loadingDoc: "설명서를 불러오고 있어요…",
+      loadingDoc: "설명서를 불러오는 중입니다…",
       tocHeading: "이 글의 목차",
       wideReaderBtn: "넓게 보기",
       stdReaderBtn: "기본 폭으로",
@@ -88,13 +88,13 @@
       dlPdfBtn: "PDF 받기",
       openExcelLabBtn: "월급 자동계산기 열기",
       searchHitsHeader: "설명서 검색 결과",
-      noSearchHits: "찾으시는 단어가 포함된 설명서 대목이 없어요. 다른 단어로 다시 검색해 보세요.",
+      noSearchHits: "입력하신 검색어가 포함된 설명서 구간이 없습니다. 다른 법령 조항이나 키워드로 다시 검색해 주십시오.",
 
       // Tab 2: Employment Hub & Calculator
       noCalcKicker: "PROTECTING YOUR NET RECOVERY · FAIR WORK ACT s 548 & s 570 ECONOMICS",
-      noCalcTitle: "못 받은 월급은 왜 처음에 직접 계산해 보는 게 내 지갑에 유리할까요?",
+      noCalcTitle: "미지급 임금을 초기에 직접 산정해야 실수령액을 지킬 수 있는 이유",
       noCalcDesc:
-        "호주 법원의 임금 소액청구($100,000 이하 · 공정근로법 s 548)는 재판에서 이겨도 상대방에게 변호사비를 물릴 수 없어요(s 570). 그래서 처음 출퇴근 시간을 더하는 단계부터 변호사에게 맡기면 받으실 월급보다 변호사비가 더 많이 나오는 안타까운 일이 생길 수 있어요. 먼저 아래 25개 업종 시급 계산기와 자동 엑셀표로 못 받은 금액을 직접 확인해 보세요. $50,000 미만이라면 법원 소액청구(Form 5)로 혼자 진행해 내 돈을 100% 다 챙기시는 게 훨씬 이득이에요. 반대로 못 받은 돈이 $50,000 이상이거나 사장님이 회사를 폐업시킨 경우(s 550), 또는 비자가 걸린 상태에서 갑자기 해고된 경우(21일 마감)에는 계산표를 첨부해 박앤코 전문변호사에게 도움을 요청해 주세요.",
+        "호주 법원의 임금 소액청구($100,000 이하 · 공정근로법 s 548)는 승소하더라도 상대방에게 변호사 비용을 청구할 수 없는 것이 원칙입니다(s 570). 따라서 기초 출퇴근 기록을 합산하는 초기 단계부터 수임료를 지출하면 실제 회수할 임금보다 법률 비용이 커지는 역전 현상이 발생할 수 있습니다. 아래 25개 업종 시급 계산기와 자동 수식 엑셀표로 미지급 금액을 먼저 직접 산정해 보시기 바랍니다. 청구액이 $50,000 미만인 단순 사건은 법원 소액청구(Form 5)로 직접 접수하여 회수액을 온전히 보전하는 편이 유리합니다. 반면 청구액이 $50,000 이상이거나 고용주가 법인을 폐업시킨 사건(s 550 대표자 개인 책임) 또는 스폰서 비자와 연동된 해고(21일 기한) 사안이라면 산정표를 첨부하여 법무법인 박앤코 전문변호사에게 검토를 요청하시기 바랍니다.",
       downloadXlsxBtn: "자동계산 엑셀(.xlsx) 받기",
       downloadEmpPdfBtn: "02번 임금 계산 요약 PDF 받기",
       openWagesManualBtn: "02번 설명서 전체 읽기",
@@ -142,9 +142,9 @@
       sbMultiWeekPrefix: "주치 누적 + 연차/해고예고 예상 청구 총액",
       sbCourtFeeLabel: "연방순회·가족법원(Form 5) 예상 접수 수수료",
       copyCalcSummaryBtn: "내 계산 결과 한 줄 복사하기 (요청서·상담 첨부용)",
-      copiedCalcSummaryToast: "계산 결과 요약이 복사되었어요. 요청서나 상담 창에 바로 붙여넣으세요.",
+      copiedCalcSummaryToast: "산정 결과 요약이 클립보드에 복사되었습니다.",
       sbNoteNonCompound:
-        "알아두실 점: 호주 캐주얼 주말·공휴일 시급은 캐주얼 시급에 또 곱하는 게 아니라 정규직 기본급에 가산 비율을 더해서 계산해요. 또한 12% 퇴직연금(Super)은 연장근무 수당을 뺀 일반 근무 급여(OTE)에만 붙어요.",
+        "산정 기준 안내: 호주 캐주얼 주말·공휴일 시급은 캐주얼 시급에 중복 승수를 곱하지 않고 정규직 기본급에 가산율을 적용하여 계산합니다. 또한 12% 퇴직연금(Super)은 연장근무 수당을 제외한 일반 근무 급여(OTE)에만 부과됩니다.",
 
       excelInspectorTitle: "못 받은 월급 자동계산 엑셀 미리보기 (계산 결과 ↔ 엑셀 수식 확인)",
       excelModeValues: "계산된 숫자 보기",
@@ -188,22 +188,22 @@
 
       // Footer
       ctaFooterKicker: "WHEN DIY IS NO LONGER ENOUGH · PARK & CO LAWYERS",
-      ctaFooterTitle: "마감 기한이 코앞이거나 혼자 해결하기 벅찬 단계에 오셨나요?",
+      ctaFooterTitle: "법정 마감 기한이 임박했거나 전문 법률 대리가 필요한 단계입니까?",
       ctaFooterDesc:
-        "이곳의 설명서와 계산기는 처음부터 변호사를 선임하면 오히려 손해가 날 수 있는 소액·초기 단계에서 여러분의 소중한 돈을 지켜 드리기 위해 만든 무료 법률 안내 자료예요. 비자 거절이나 취소 통지(NOICC · PIC 4020 · ART 재심), 회사 스폰서 비자(482/186), 해고 후 21일 내 비자 위기나 $50,000 이상 고액 임금 소송(폐업 대표자 책임 s 550), 호주 가족법 법원 합의명령(Consent Orders)이나 연락을 피하는 배우자 재산 확인이 필요한 단계라면 혼자 고민하지 마시고 아래 상담 링크로 박앤코 전문변호사를 찾아 주세요.",
+        "본 포털의 설명서와 계산기는 초기·소액 단계에서 의뢰인의 실수령액이 과도한 수임료로 잠식되지 않도록 돕기 위해 제작된 일반 법률 안내 자료입니다. 비자 거절·취소 통지(NOICC · PIC 4020 · 행정재심기구(ART) 재심)와 기업 스폰서십(482/186)을 비롯해 해고 후 21일 내 비자 위기 대응이나 $50,000 이상 고액 임금 청구(폐업 대표자 책임 s 550) 및 호주 가족법 법원 합의명령(Consent Orders)과 비협조 배우자 재산 공개 청구 단계에 도달했다면 아래 공식 상담 허브를 통해 법무법인 박앤코 전문변호사에게 문의하시기 바랍니다.",
       ctaFooterLegal:
-        "안내 말씀: 이 사이트의 글을 읽거나 무료 서식을 내려받는 것만으로 변호사 선임 계약이 맺어지는 것은 아니에요. 내 사건의 법정 마감 날짜를 챙기고 기본 사실관계를 확인하는 일은 본인께서 꼭 먼저 살펴주셔야 해요. 무료 공익 법률지원이 필요하신 경우 Legal Aid QLD(1300 65 11 88) 또는 퀸즐랜드 변호사회(QLS · qls.com.au · 1300 367 757) 공식 창구도 함께 활용하실 수 있어요. (공식 이메일: cpark@parkcolawyers.com)",
+        "법률 고지: 본 사이트의 자료 열람이나 서식 다운로드만으로는 변호사-의뢰인 수임 관계가 성립하지 않습니다. 정식 수임 계약 체결 전까지 개별 사안의 법정 기한 관리와 사실관계 확인 책임은 당사자 본인에게 있습니다. 무료 공익 법률지원이 필요한 경우 Legal Aid QLD(1300 65 11 88) 또는 퀸즐랜드 변호사회(QLS · qls.com.au · 1300 367 757) 안내 창구를 함께 이용하실 수 있습니다. (공식 이메일: enquiry@parkcolawyers.com)",
       ctaDirector: "박창민 대표변호사 (Chang Min Park)",
       ctaCredential: "Legal Practitioner Director · QLS Accredited Specialist in Immigration Law",
-      ctaLocation: "Park & Co Lawyers · Underwood QLD · cpark@parkcolawyers.com",
-      copyEmailBtn: "상담 신청 주소 복사하기",
-      copiedAddrToast: "박앤코 상담 신청 링크가 복사되었어요.",
+      ctaLocation: "Park & Co Lawyers · Underwood QLD · enquiry@parkcolawyers.com",
+      copyEmailBtn: "공식 상담 허브 링크 복사",
+      copiedAddrToast: "법무법인 박앤코 공식 상담 허브 링크가 복사되었습니다.",
     },
 
     en: {
       pageTitle: "Park & Co Lawyers · Australian 3-Practice Self-Help (DIY) & Legal Cost Protection Hub",
-      inquiryUrl: "https://parklawyers.com.au/links/",
-      inquiryLabel: "parklawyers.com.au/links",
+      inquiryUrl: "https://parklawyers.com.au/links/?lang=en",
+      inquiryLabel: "parklawyers.com.au/links/?lang=en",
 
       // Ecosystem Top Bar
       ecoHubBrand: "← Park & Co Legal & Visa Hub",
@@ -377,10 +377,10 @@
       ctaFooterDesc:
         "The manuals and calculators on this hub provide general legal information designed to protect your net financial benefit during straightforward or no-costs DIY stages. When your matter reaches visa refusals, NOICC cancellations, PIC 4020, ART appeals, corporate sponsorships (482/186), 21-day visa-linked dismissals, employer defences, ≥$50,000 / s 550 wage claims, Family Court Consent Orders, or stonewalling ex-partner disclosure, contact Park & Co Lawyers via our official consultation hub.",
       ctaFooterLegal:
-        "Legal Notice: Viewing or downloading resources on this hub does not create a solicitor-client retainer. Individuals remain responsible for monitoring their own statutory limitation dates prior to formal engagement. For free public legal assistance or general solicitor directory inquiries, you may also contact Legal Aid Queensland (1300 65 11 88) or the Queensland Law Society (qls.com.au · 1300 367 757). (Official email: cpark@parkcolawyers.com)",
+        "Legal Notice: Viewing or downloading resources on this hub does not create a solicitor-client retainer. Individuals remain responsible for monitoring their own statutory limitation dates prior to formal engagement. For free public legal assistance or general solicitor directory inquiries, you may also contact Legal Aid Queensland (1300 65 11 88) or the Queensland Law Society (qls.com.au · 1300 367 757). (Official email: enquiry@parkcolawyers.com)",
       ctaDirector: "Chang Min Park · Legal Practitioner Director",
       ctaCredential: "QLS Accredited Specialist in Immigration Law · Park & Co Lawyers",
-      ctaLocation: "Park & Co Lawyers · Underwood QLD · cpark@parkcolawyers.com",
+      ctaLocation: "Park & Co Lawyers · Underwood QLD · enquiry@parkcolawyers.com",
       copyEmailBtn: "Copy Official Consultation Link",
       copiedAddrToast: "Official Park & Co consultation hub link copied to clipboard.",
     },
@@ -414,6 +414,8 @@
     selectedAwardLabel: "",
     lastCalculatedSummaryAmount: "",
     lastCalculatedSummaryBlock: "",
+    hasUserCalculated: false,
+    importCalcToDemand: false,
 
     // Excel, Studio & Library
     excelSheetIdx: 1,
@@ -1036,7 +1038,7 @@
 
       guidanceBoxHtml = isLitigationTier
         ? `<div class="gate-callout-box gate-retain">
-             <strong style="display:block;color:#7A1F2B;margin-bottom:5px;">SOLICITOR INFLECTION POINT REACHED (≥$50,000 SCALE)</strong>
+             <strong style="display:block;color:#0E3A3E;margin-bottom:5px;">SOLICITOR INFLECTION POINT REACHED (≥$50,000 SCALE)</strong>
              <p style="margin:0 0 10px;font-size:13px;">At this claim size, formal legal strategy and s 550 director asset protection become economically viable. Complete the 208-Formula Excel (.xlsx) and attach it to our Employment Consultation Form:</p>
              <a href="${esc(empJotform)}" target="_blank" rel="noopener" class="btn-primary btn-sm">Open Employment Consultation Form ↗</a>
            </div>`
@@ -1055,14 +1057,14 @@
 
       guidanceBoxHtml = isLitigationTier
         ? `<div class="gate-callout-box gate-retain">
-             <strong style="display:block;color:#7A1F2B;margin-bottom:5px;">변호사 도움이 꼭 필요한 규모예요 (예상 청구액 $50,000 이상)</strong>
-             <p style="margin:0 0 10px;font-size:13px;">이 정도 금액부터는 회사 폐업에 대비해 사장님 개인 재산까지 함께 청구(s 550)하는 등 변호사를 선임하는 것이 훨씬 유리해요. 자동계산 엑셀(.xlsx)을 채워서 아래 온라인 상담 질문지에 첨부해 주세요.</p>
+             <strong style="display:block;color:#0E3A3E;margin-bottom:5px;">전문변호사 대리가 필요한 규모입니다 (예상 청구액 $50,000 이상)</strong>
+             <p style="margin:0 0 10px;font-size:13px;">이 규모부터는 법인 폐업에 대비하여 대표자 개인 재산까지 병합 청구(s 550)하는 등 정식 법률 대리를 진행하는 편이 실익 면에서 유리합니다. 자동계산 엑셀(.xlsx)을 작성하여 아래 온라인 상담 질문지에 첨부해 주시기 바랍니다.</p>
              <a href="${esc(empJotform)}" target="_blank" rel="noopener" class="btn-primary btn-sm">고용법 온라인 상담 질문지 열기 ↗</a>
            </div>`
         : `<div class="gate-callout-box gate-diy">
-             <strong style="display:block;color:#19583B;margin-bottom:5px;">혼자 진행해 내 돈을 지키는 구간이에요 ($50,000 미만 · 변호사비 보전 안 됨)</strong>
-             <p style="margin:0 0 8px;font-size:13px;">변호사비로 내 몫이 깎이지 않도록 아래에서 7일 내 지급 요청서를 먼저 보내 보시고 안 주면 법원 소액청구(Form 5)로 직접 신청하시는 게 가장 이득이에요. 다만 비자가 걸린 해고(21일 마감)이거나 회사를 고의로 폐업시킨 사건(s 550)이라면 아래에서 바로 상담을 신청해 주세요.</p>
-             <a href="${esc(empJotform)}" target="_blank" rel="noopener" class="btn-outline btn-sm">비자가 걸린 해고 · 고의 폐업(s 550) 상담 신청 ↗</a>
+             <strong style="display:block;color:#19583B;margin-bottom:5px;">직접 진행하여 실수령액을 보전하는 구간입니다 ($50,000 미만 · 변호사 비용 보전 제외)</strong>
+             <p style="margin:0 0 8px;font-size:13px;">수임료로 회수액이 잠식되지 않도록 아래 7일 지급 요구서를 먼저 발송하시고 미지급 시 법원 소액청구(Form 5)로 직접 접수하시는 편이 가장 유리합니다. 다만 스폰서 비자 연동 해고(21일 기한)이거나 고의 폐업 사건(s 550)이라면 아래 상담 창구로 즉시 문의하시기 바랍니다.</p>
+             <a href="${esc(empJotform)}" target="_blank" rel="noopener" class="btn-outline btn-sm">비자 연동 해고 · 고의 폐업(s 550) 상담 신청 ↗</a>
            </div>`;
     }
 
@@ -1117,7 +1119,7 @@
       <div class="sb-metric-total">
         <span class="insp-box-label num">${weeks}${esc(t("sbMultiWeekPrefix"))}</span>
         <div class="sb-big-val num">${fmtAud(multiTotal)}</div>
-        <div style="font-size:12.5px;margin-top:6px;font-weight:700;color:#1A1211;">
+        <div style="font-size:12.5px;margin-top:6px;font-weight:700;color:#14282A;">
           ${esc(t("sbCourtFeeLabel"))}: <span class="num">${esc(feeNote)}</span>
         </div>
       </div>
@@ -1335,7 +1337,7 @@
         (p) => `
         <button type="button" class="pdf-select-card ${p.key === active.key ? "active" : ""}" data-pdf-key="${esc(p.key)}">
           <span class="doc-nav-badge num">${esc(p.badge)}</span>
-          <strong style="display:block;font-size:14px;margin-bottom:4px;color:#1A1211;">${esc(p.title)}</strong>
+          <strong style="display:block;font-size:14px;margin-bottom:4px;color:#14282A;">${esc(p.title)}</strong>
           <span style="font-size:12.5px;color:#5A5654;">${esc(p.subtitle)}</span>
         </button>`
       )
@@ -1534,6 +1536,7 @@
     });
 
     document.getElementById("sbAwardSelect")?.addEventListener("change", (e) => {
+      state.hasUserCalculated = true;
       const code = e.target.value;
       state.empAwardCode = code;
       if (code === "custom") {
@@ -1552,12 +1555,14 @@
     });
 
     document.getElementById("sbLevelSelect")?.addEventListener("change", (e) => {
+      state.hasUserCalculated = true;
       state.empPresetId = e.target.value;
       applyAwardPresetToInputs();
     });
 
     document.querySelectorAll("[data-emp-type]").forEach((btn) => {
       btn.addEventListener("click", () => {
+        state.hasUserCalculated = true;
         state.empType = btn.dataset.empType;
         document.querySelectorAll("[data-emp-type]").forEach((b) =>
           b.classList.toggle("active", b.dataset.empType === state.empType)
@@ -1576,10 +1581,17 @@
       "sbOt2Hrs", "sbOt2Rate", "sbActualPaid", "sbWeeks",
       "sbLeaveHrs", "sbNoticeWks",
     ].forEach((id) => {
-      document.getElementById(id)?.addEventListener("input", recalcSandbox);
+      document.getElementById(id)?.addEventListener("input", () => {
+        state.hasUserCalculated = true;
+        recalcSandbox();
+      });
     });
 
     document.getElementById("sandboxResetBtn")?.addEventListener("click", () => {
+      state.hasUserCalculated = false;
+      state.importCalcToDemand = false;
+      const impCb = document.getElementById("psImportCalcCheck");
+      if (impCb) impCb.checked = false;
       state.empSector = "all";
       state.empAwardCode = "MA000119";
       state.empPresetId = "ma000119_lv2";

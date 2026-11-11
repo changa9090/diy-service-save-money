@@ -127,7 +127,13 @@
       lblOt2Rate: "연장근무 뒷구간 시급 ($/시간 · 연금 제외)",
       lblActualPaid: "실제로 받은 1주일치 세전 월급 ($)",
       lblWeeksCount: "이렇게 일한 기간 (몇 주)",
+      lblSuperPaidMode: "퇴직연금(Super 12%) 지급 상태",
+      optSuperPaidFull: "12% 정상 지급됨 (미지급 연금 $0)",
+      optSuperUnpaidZero: "전액 미지급 ($0 납부 · 12% 전액 청구)",
+      optSuperCustomAmt: "일부 지급됨 (우측에 실제 지급액 $ 입력)",
+      lblActualSuperPaid: "실제 지급된 슈퍼 금액 ($/1주)",
       lblLeaveHrs: "못 받은 남은 연차 시간 (정규·파트타임만, +17.5% 반영)",
+      lblLeaveHrsNoLoad: "못 받은 남은 연차 시간 (정규·파트타임만, 연차수당 0% · 기본급 기준)",
       lblNoticeWks: "못 받은 해고예고 수당 주수 (정규·파트타임만, 몇 주)",
 
       sbTotalHours: "1주일 총 일한 시간",
@@ -136,9 +142,12 @@
       sbStatutoryGross: "법대로 받아야 할 1주일 세전 총액",
       sbActualGross: "실제로 받은 1주일 세전 금액",
       sbWeeklyWageShortfall: "1주일당 덜 받은 월급 차액",
-      sbWeeklySuper: "1주일당 쌓여야 할 12% 퇴직연금(Super)",
+      sbWeeklySuper: "1주일 법정 12% 퇴직연금(Super)",
+      sbWeeklySuperPaidPrefix: "실제 납부",
+      sbWeeklySuperShortfall: "1주일당 미지급 퇴직연금 차액",
       sbLeaveNoticeAdd: "못 받은 남은 연차(+17.5%) · 해고예고 수당",
-      sbCombinedWeekly: "1주일당 못 받은 돈 합계 (월급 차액 + 연금)",
+      sbLeaveNoticeAddNoLoad: "못 받은 남은 연차(0% 할증) · 해고예고 수당",
+      sbCombinedWeekly: "1주일당 못 받은 돈 합계 (월급 차액 + 미지급 연금)",
       sbMultiWeekPrefix: "주치 누적 + 연차/해고예고 예상 청구 총액",
       sbCourtFeeLabel: "연방순회·가족법원(Form 5) 예상 접수 수수료",
       copyCalcSummaryBtn: "내 계산 결과 한 줄 복사하기 (요청서·상담 첨부용)",
@@ -312,7 +321,13 @@
       lblOt2Rate: "Overtime Tier 2 Rate ($/h · excl. Super)",
       lblActualPaid: "Actual Weekly Gross Paid ($)",
       lblWeeksCount: "Repeated Weeks Count (Weeks)",
+      lblSuperPaidMode: "Superannuation (12% SG) Payment Status",
+      optSuperPaidFull: "12% Paid in Full ($0 Super Shortfall)",
+      optSuperUnpaidZero: "Unpaid ($0 Paid · Claim Full 12%)",
+      optSuperCustomAmt: "Partially Paid (Enter Actual Weekly Super $)",
+      lblActualSuperPaid: "Actual Weekly Super Paid ($)",
       lblLeaveHrs: "Unpaid Annual Leave Hours (FT/PT +17.5% loading)",
+      lblLeaveHrsNoLoad: "Unpaid Annual Leave Hours (FT/PT · 0% loading under NES)",
       lblNoticeWks: "Unpaid s 117 Notice Weeks (FT/PT Weeks)",
 
       sbTotalHours: "Total Weekly Hours",
@@ -321,9 +336,12 @@
       sbStatutoryGross: "Total Weekly Statutory Gross",
       sbActualGross: "Actual Weekly Gross Paid",
       sbWeeklyWageShortfall: "Weekly Unpaid Wage Shortfall",
-      sbWeeklySuper: "Weekly 12.0% OTE Superannuation (SG)",
+      sbWeeklySuper: "Weekly 12.0% Statutory OTE Super (SG)",
+      sbWeeklySuperPaidPrefix: "Paid",
+      sbWeeklySuperShortfall: "Weekly Unpaid Super Shortfall",
       sbLeaveNoticeAdd: "Unpaid Annual Leave (+17.5%) & Notice",
-      sbCombinedWeekly: "Combined Weekly Shortfall (Wages + Super)",
+      sbLeaveNoticeAddNoLoad: "Unpaid Annual Leave (0% loading) & Notice",
+      sbCombinedWeekly: "Combined Weekly Shortfall (Wages + Unpaid Super)",
       sbMultiWeekPrefix: "-Week Projected Claim + Leave / Notice",
       sbCourtFeeLabel: "Indicative FCFCOA Form 5 Filing Fee",
       copyCalcSummaryBtn: "Copy Self-Calculation Summary (For Demand / Consultation)",
@@ -1001,6 +1019,17 @@
     const eveMode = aw ? aw.eve_mode : "add";
     const isPerm = state.empType === "ft" || state.empType === "pt";
     const ftBase = lv ? lv.ft_base : state.empType === "casual" ? round2(mfR / 1.25) : mfR;
+    const leaveLoadingPct =
+      aw && typeof aw.leave_loading_pct === "number"
+        ? aw.leave_loading_pct
+        : state.empAwardCode && state.empAwardCode.startsWith("NMW")
+          ? 0
+          : 17.5;
+
+    const lblLeaveEl = document.getElementById("lblLeaveHrsText");
+    if (lblLeaveEl) {
+      lblLeaveEl.textContent = leaveLoadingPct > 0 ? t("lblLeaveHrs") : t("lblLeaveHrsNoLoad");
+    }
 
     const ordHrs = round2(mfH + satH + sunH + phH + (eveMode === "rate" ? ntH : 0));
     const otHrs = round2(ot1H + ot2H);
@@ -1011,9 +1040,28 @@
     const statGross = round2(oteGross + otGross);
     const wageShortfall = Math.max(0, round2(statGross - paid));
     const superReq = round2(oteGross * 0.12);
-    const weeklyCombined = round2(wageShortfall + superReq);
 
-    const leaveAmt = isPerm ? round2(leaveHrs * ftBase * 1.175) : 0;
+    const superModeEl = document.getElementById("sbSuperPaidMode");
+    const superInputEl = document.getElementById("sbActualSuperPaid");
+    const superMode = superModeEl ? superModeEl.value : "paid_full";
+    let actualSuperPaid = superReq;
+    if (superMode === "paid_full") {
+      actualSuperPaid = superReq;
+      if (superInputEl && document.activeElement !== superInputEl) {
+        superInputEl.value = superReq.toFixed(2);
+      }
+    } else if (superMode === "unpaid_zero") {
+      actualSuperPaid = 0;
+      if (superInputEl && document.activeElement !== superInputEl) {
+        superInputEl.value = "0";
+      }
+    } else {
+      actualSuperPaid = val("sbActualSuperPaid");
+    }
+    const superShortfall = Math.max(0, round2(superReq - actualSuperPaid));
+    const weeklyCombined = round2(wageShortfall + superShortfall);
+
+    const leaveAmt = isPerm ? round2(leaveHrs * ftBase * (1 + leaveLoadingPct / 100)) : 0;
     const noticeOrdHrs = Math.min(38, ordHrs || 38);
     const noticeAmt = isPerm ? round2(noticeWks * noticeOrdHrs * ftBase) : 0;
     const leaveNoticeTotal = round2(leaveAmt + noticeAmt);
@@ -1025,6 +1073,7 @@
     const empJotform = state.bootstrap?.hubs?.employment?.jotform_url || t("inquiryUrl");
     const isLitigationTier = multiTotal >= 50000;
     const awardTag = state.selectedAwardLabel || (state.lang === "en" ? "Custom Rates" : "직접 입력 시급");
+    const leaveNoticeRowLabel = leaveLoadingPct > 0 ? t("sbLeaveNoticeAdd") : t("sbLeaveNoticeAddNoLoad");
 
     let feeNote = "";
     let guidanceBoxHtml = "";
@@ -1034,7 +1083,7 @@
       else if (multiTotal <= 100000) feeNote = "$585 Filing Fee ($50k–$100k Small Claims · Form 5)";
       else feeNote = ">$100,000 Small-Claims Cap Exceeded · Federal Circuit / Federal Court General Track";
 
-      state.lastCalculatedSummaryBlock = `Park & Co Self-Calculated Claim Summary | Award/Level: ${awardTag} | Weekly Statutory Gross: ${fmtAud(statGross)} (OTE ${fmtAud(oteGross)} + OT ${fmtAud(otGross)}) vs Paid: ${fmtAud(paid)} | Weekly Wage Shortfall: ${fmtAud(wageShortfall)} + 12% OTE Super: ${fmtAud(superReq)} × ${weeks} wks | Leave/Notice: ${fmtAud(leaveNoticeTotal)} => Total Projected Claim: ${fmtAud(multiTotal)}`;
+      state.lastCalculatedSummaryBlock = `Park & Co Self-Calculated Claim Summary | Award/Level: ${awardTag} | Weekly Statutory Gross: ${fmtAud(statGross)} (OTE ${fmtAud(oteGross)} + OT ${fmtAud(otGross)}) vs Paid: ${fmtAud(paid)} | Weekly Wage Shortfall: ${fmtAud(wageShortfall)} + Unpaid Super Shortfall: ${fmtAud(superShortfall)} (Statutory 12% ${fmtAud(superReq)} - Paid ${fmtAud(actualSuperPaid)}) × ${weeks} wks | Leave/Notice: ${fmtAud(leaveNoticeTotal)} => Total Projected Claim: ${fmtAud(multiTotal)}`;
 
       guidanceBoxHtml = isLitigationTier
         ? `<div class="gate-callout-box gate-retain">
@@ -1053,7 +1102,7 @@
       else if (multiTotal <= 100000) feeNote = "$585 ($50,000~$100,000 구간 · Form 5)";
       else feeNote = "$100,000 소액청구 한도 초과 · 일반 연방법원 소송 절차 대상";
 
-      state.lastCalculatedSummaryBlock = `박앤코 임금 계산 결과 | 업종·직급: ${awardTag} | 1주일 법정 급여 ${fmtAud(statGross)} (일반근무 ${fmtAud(oteGross)} + 연장근무 ${fmtAud(otGross)} / 실제 수령 ${fmtAud(paid)}) | 1주일 덜 받은 월급 ${fmtAud(wageShortfall)} + 12% 연금 ${fmtAud(superReq)} × ${weeks}주 | 미지급 연차·해고예고 ${fmtAud(leaveNoticeTotal)} => 총 청구 예상 금액: ${fmtAud(multiTotal)}`;
+      state.lastCalculatedSummaryBlock = `박앤코 임금 계산 결과 | 업종·직급: ${awardTag} | 1주일 법정 급여 ${fmtAud(statGross)} (일반근무 ${fmtAud(oteGross)} + 연장근무 ${fmtAud(otGross)} / 실제 수령 ${fmtAud(paid)}) | 1주일 덜 받은 월급 ${fmtAud(wageShortfall)} + 미지급 연금 ${fmtAud(superShortfall)} (법정 12% ${fmtAud(superReq)} · 실제 납부 ${fmtAud(actualSuperPaid)}) × ${weeks}주 | 미지급 연차·해고예고 ${fmtAud(leaveNoticeTotal)} => 총 청구 예상 금액: ${fmtAud(multiTotal)}`;
 
       guidanceBoxHtml = isLitigationTier
         ? `<div class="gate-callout-box gate-retain">
@@ -1103,11 +1152,15 @@
           <strong class="num" style="color:#B23A2E;">${fmtAud(wageShortfall)}</strong>
         </div>
         <div class="sb-metric-row">
-          <span>${esc(t("sbWeeklySuper"))}</span>
+          <span>${esc(t("sbWeeklySuper"))} (${esc(t("sbWeeklySuperPaidPrefix"))} ${fmtAud(actualSuperPaid)})</span>
           <strong class="num" style="color:#1F5A5E;">${fmtAud(superReq)}</strong>
         </div>
         <div class="sb-metric-row">
-          <span>${esc(t("sbLeaveNoticeAdd"))}</span>
+          <span>${esc(t("sbWeeklySuperShortfall"))}</span>
+          <strong class="num" style="color:${superShortfall > 0 ? "#B23A2E" : "#19583B"};">${fmtAud(superShortfall)}</strong>
+        </div>
+        <div class="sb-metric-row">
+          <span>${esc(leaveNoticeRowLabel)}</span>
           <strong class="num">${fmtAud(leaveNoticeTotal)}</strong>
         </div>
         <div class="sb-metric-row">
@@ -1587,11 +1640,27 @@
       });
     });
 
+    document.getElementById("sbSuperPaidMode")?.addEventListener("change", () => {
+      state.hasUserCalculated = true;
+      recalcSandbox();
+    });
+
+    document.getElementById("sbActualSuperPaid")?.addEventListener("input", () => {
+      const modeSel = document.getElementById("sbSuperPaidMode");
+      if (modeSel && modeSel.value !== "custom_amt") {
+        modeSel.value = "custom_amt";
+      }
+      state.hasUserCalculated = true;
+      recalcSandbox();
+    });
+
     document.getElementById("sandboxResetBtn")?.addEventListener("click", () => {
       state.hasUserCalculated = false;
       state.importCalcToDemand = false;
       const impCb = document.getElementById("psImportCalcCheck");
       if (impCb) impCb.checked = false;
+      const superModeSel = document.getElementById("sbSuperPaidMode");
+      if (superModeSel) superModeSel.value = "paid_full";
       state.empSector = "all";
       state.empAwardCode = "MA000119";
       state.empPresetId = "ma000119_lv2";

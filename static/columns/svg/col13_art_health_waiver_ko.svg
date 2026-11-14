@@ -2,15 +2,15 @@
   <rect x="0.5" y="0.5" width="879" height="381" rx="14" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="1"/>
   <rect x="1" y="1" width="878" height="76" rx="13" fill="#FAF9F6"/>
   <line x1="1" y1="77" x2="879" y2="77" stroke="#E3DFD7" stroke-width="1"/>
-  <text x="26" y="28" font-size="11" font-weight="700" fill="#7A1F2B" letter-spacing="0.05em">행정재심원(ART $3,727) 본안 재심 · $86,000 건강 요건(PIC 4005·4007) 돌파</text>
+  <text x="26" y="28" font-size="11" font-weight="700" fill="#7A1F2B" letter-spacing="0.05em">행정재심기구(ART $3,727) 본안 재심 · $86,000 건강 요건(PIC 4005·4007) 돌파</text>
   <text x="26" y="51" font-size="16" font-weight="800" fill="#1F242B">ART 재심 승패를 가르는 시점 법리와 $86,000 의료비 거절 대응 전략</text>
   <text x="26" y="69" font-size="11.2" fill="#525B67">근거: ART Filing Fee $3,727 (2026.7.1) · SCT $86,000 · Robinson [2005] FCA 1626 · Bui [1999] FCA 118</text>
   <rect x="22" y="94" width="408" height="218" rx="10" fill="#EEF5F7" stroke="#1F4E5F" stroke-width="1.3"/>
   <rect x="22" y="94" width="408" height="32" rx="9" fill="#1F4E5F"/>
-  <text x="38" y="115" font-size="11.8" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">트랙 1 · 행정재심원(ART) 접수 시한과 시점 요건</text>
+  <text x="38" y="115" font-size="11.8" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">트랙 1 · 행정재심기구(ART) 접수 시한과 시점 요건</text>
   <circle cx="42" cy="144" r="4" fill="#1F4E5F"/>
-  <text x="54" y="148" font-size="12.2" font-weight="800" fill="#1F242B">단 1분도 연장 없는 절대 제소기한 ($3,727)</text>
-  <text x="54" y="167" font-size="11.1" fill="#525B67">일반 거절 28일 · 취소/구금 7영업일~14일 도과 시 관할권 영구 소멸.</text>
+  <text x="54" y="148" font-size="12.2" font-weight="800" fill="#1F242B">단 1분도 연장 없는 법정 제소기한 ($3,727)</text>
+  <text x="54" y="167" font-size="11.1" fill="#525B67">비구금 거절·일반 s 116 취소 28역일 · 통지 당일 구금 14역일 · 인성 9역일.</text>
   <circle cx="42" cy="196" r="4" fill="#1F4E5F"/>
   <text x="54" y="200" font-size="12.2" font-weight="800" fill="#1F242B">신청 시점(ToA) vs 재심 결정 시점(ToD) 구분</text>
   <text x="54" y="219" font-size="11.1" fill="#525B67">접수일 요건 흠결은 보완이 불가능하나, 결정 시점 요건은 신규 증거로 치유!</text>

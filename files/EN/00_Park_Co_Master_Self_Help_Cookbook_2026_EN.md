@@ -25,7 +25,7 @@ When a law firm tells you, *"Hiring us for this matter would cost you more than 
 | :--- | :--- | :--- |
 | **1. Immigration Law** | Employer-Sponsored (SID 482, 186 ENS, 494: CSIT $79,423 · SSIT $146,576 · DAMA $71,481), NOICC cancellations, PIC 4020 / s 57 natural justice responses, in-time ART merits review, s 501 character, PIC 4007 health waivers, Schedule 3, Partner Visas (820/801), pre-lodgement review ($495 / strategy $330): Park & Co Immigration Form [https://form.jotform.com/220391121528851](https://form.jotform.com/220391121528851) | General PR / Migration Roadmap Planning ([https://changa9090.github.io/parkco-visa-solution-guide/](https://changa9090.github.io/parkco-visa-solution-guide/)), clean Visitor (600), Working Holiday (417/462), routine Student (500), straightforward 155 RRV (≥730 days residence), Citizenship, and Forms 80, 888, 956A, 1229, 1447 |
 | **2. Employment Law** | Corporate/Employer defence & HR retainers, senior/visa-linked employee dismissals (GP/UD within 21 days), self-calculated major multi-year FCFCOA underpayment & s 550 litigation (>$50k–$200k+): Park & Co Employment Form [https://form.jotform.com/221642058161853](https://form.jotform.com/221642058161853) | Regulatory employer reports (FWO / ATO / Home Affairs Border Watch), payslip/record breaches (s 536 / s 557C), small/medium unpaid wages, weekend penalties, leave & 12% super (s 548 Small Claims up to $100,000, self-calculated), short-tenure FWC claims (Form F2 / F8 / F72 / F75) |
-| **3. Family Law** | (1) Mostly agreed Property & Parenting Consent Orders ($4,950 fixed-fee package) / BFA / BCSA, (2) Solicitor's Formal Negotiation & Financial Disclosure Demand Letter to bring a non-responsive spouse to the settlement table, mid-market property pools ($300k–$2M+), Partner Visa DV (Div 1.5): Park & Co Family Form [https://form.jotform.com/262472844554060](https://form.jotform.com/262472844554060) | Fault-based breakup disputes (s 48 No-Fault framework + s 60I FDR mediation), budget-conscious Sole or Joint Divorce ([comcourts.gov.au](https://www.comcourts.gov.au)), micro-pool agreements, initial preparation for Priority Property Pools (PPP ≤ $550,000) |
+| **3. Family Law** | (1) Mostly agreed Property & Parenting Consent Orders ($4,950 fixed-fee package) / BFA / BCSA, (2) Solicitor's Formal Negotiation & Financial Disclosure Demand Letter to bring a non-responsive spouse to the settlement table, mid-market property pools ($300k–$2M+), Partner Visa DV (Div 1.5): Park & Co Family Form [https://form.jotform.com/262472844554060](https://form.jotform.com/262472844554060) | Fault-based breakup disputes (s 48 No-Fault framework + s 60I FDR mediation), budget-conscious Sole or Joint Divorce ([comcourts.gov.au](https://www.comcourts.gov.au)), micro-pool agreements, initial preparation for Priority Property Pools (PPP < $550,000 excl. super) |
 
 ---
 
@@ -34,12 +34,12 @@ When a law firm tells you, *"Hiring us for this matter would cost you more than 
 Mark these non-negotiable statutory cut-off dates immediately. Missing a jurisdictional deadline by even one day permanently extinguishes your right to apply.
 
 1. **Immigration, ART Merits Review & Judicial Review (Migration Act ss 347, 500, 477)**:
-   - Standard onshore visa refusal/cancellation: 28 calendar days (weekends and public holidays count).
-   - Applicant in immigration detention: 14 calendar days (*the 2025 ART Miscellaneous Measures Act abolished the legacy 2- and 7-working-day detention deadlines*).
+   - Standard Part 5 visa refusal or general s 116 cancellation (non-detention): 28 calendar days from deemed notification (s 347(3)(b); weekends and public holidays count).
+   - Applicant in immigration detention on the day notified: 14 calendar days (s 347(3)(a)).
    - Onshore s 501 character review (s 500(6B)): 9 calendar days, plus a mandatory 2-business-day pre-hearing evidence bar (s 500(6H)).
-   - Strict Statutory Rule: The ART has zero legal power to extend time. Under s 494C, emailed refusal notices are deemed received at the end of the day transmitted. Federal Court judicial review (s 477) must be filed within 35 days of an ART decision.
+   - Strict Statutory Rule: The ART has zero legal power to extend migration review time limits (s 347(5)). Onshore NOICC responses allow 5 working days (reg 2.44(2)(a), with discretionary +5 working days under s 121(4)/reg 2.44(3) only if requested before expiry). Under s 494C, emailed refusal notices are deemed received at the end of the day transmitted, while FCFCOA judicial review (s 477) must be filed within 35 days of the date of the migration decision (s 477(3), subject only to written extension applications under s 477(2)).
 2. **Employment Dismissal vs Wage Recovery (Fair Work Act ss 394, 365, 544)**:
-   - Unfair Dismissal (Form F2) and General Protections Dismissal (Form F8): 21 calendar days after the dismissal takes effect (workplace sexual harassment Form F75 is generally within 24 months; FCFCOA Form 2 after an s 368 certificate is 14 days).
+   - Unfair Dismissal (Form F2) and General Protections Dismissal (Form F8): 21 calendar days after the dismissal takes effect, extendable only if the FWC is satisfied of strict exceptional circumstances under s 394(3) or s 366(2) (workplace sexual harassment Form F75 is generally within 24 months; FCFCOA Form 2 after an s 368 certificate is 14 days).
    - Statutory underpayments of wages, penalty rates, leave, and superannuation (s 548): 6 years from each unpaid payday (s 544). Under Payday Super (effective 1 July 2026), 12% SG contributions must reach the employee's fund within 7 business days of payday.
 3. **Family Law Divorce, Property & Maintenance (Family Law Act ss 48, 44)**:
    - Online Divorce eligibility: Minimum 12 months + 1 day of continuous separation.
@@ -66,7 +66,7 @@ Mark these non-negotiable statutory cut-off dates immediately. Missing a jurisdi
 
 1. **01_Immigration_DIY_and_Official_Forms_Cookbook_2026_EN**: Free Australian Visa Solution Guide (714 SOL search, local CV matcher, Schedule 6D PR points) + box-by-box rules for Forms 80, 888, 956A, 1229, 1022, 1023, 1447 and ART reviews.
 2. **02_Employment_Underpayment_Formulas_and_FWC_Cookbook_2026_EN** + **Park_Co_Underpayment_Self_Calculator_2026_EN.xlsx**: Exact Award penalty math, Payday Super (12% SG), s 557C reverse-onus proof for missing payslips, 7-day Letter of Demand, and Form 5 / F2 / F8 guides.
-3. **03_Family_Law_Divorce_Consent_Orders_PPP_Cookbook_2026_EN**: June 2025 No-Fault Divorce reforms, Consent Orders ($4,950 fixed-fee package), compelling financial disclosure from non-responsive spouses, and Priority Property Pools (PPP ≤ $550,000).
+3. **03_Family_Law_Divorce_Consent_Orders_PPP_Cookbook_2026_EN**: June 2025 No-Fault Divorce reforms, Consent Orders ($4,950 fixed-fee package), compelling financial disclosure from non-responsive spouses, and Priority Property Pools (PPP < $550,000 excl. super).
 
 ---
 

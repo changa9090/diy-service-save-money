@@ -10,7 +10,7 @@
   <text x="38" y="115" font-size="11.8" font-weight="700" font-family="'JetBrains Mono', 'Inter', monospace" fill="#FFFFFF">1. ART JURISDICTION &amp; TIME-OF-DECISION RULES</text>
   <circle cx="42" cy="144" r="4" fill="#1F4E5F"/>
   <text x="54" y="148" font-size="12.2" font-weight="800" fill="#1F242B">Zero Discretion to Extend Deadlines ($3,727)</text>
-  <text x="54" y="167" font-size="11.1" fill="#525B67">Missing the 28-day (or 7/9/14-day) statutory window kills jurisdiction.</text>
+  <text x="54" y="167" font-size="11.1" fill="#525B67">Missing the 28-day (14d detained on day notified / 9d s 500(6B)) window ends jurisdiction.</text>
   <circle cx="42" cy="196" r="4" fill="#1F4E5F"/>
   <text x="54" y="200" font-size="12.2" font-weight="800" fill="#1F242B">Time-of-Application vs Time-of-Decision</text>
   <text x="54" y="219" font-size="11.1" fill="#525B67">De novo review cures ToD criteria with fresh evidence up to hearing.</text>

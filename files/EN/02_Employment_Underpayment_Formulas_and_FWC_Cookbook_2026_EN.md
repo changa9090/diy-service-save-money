@@ -132,13 +132,13 @@ Permanent full-time and part-time employees accrue 4 weeks of paid annual leave 
 
 If dismissed without receiving full working notice (excluding casuals and genuine serious misconduct):
 
-- **Minimum Notice Scale**: Service ≤ 1 yr: 1 week · > 1–3 yrs: 2 weeks · > 3–5 yrs: 3 weeks · > 5 yrs: 4 weeks
-- **Age 45+ Bonus**: Add 1 extra week if aged 45 or older with at least 2 years continuous service (maximum 5 weeks).
-- **Notice Shortfall**: (Statutory Notice Weeks − Working Notice Weeks Given) × Full Weekly Rate of Pay.
+- **Minimum Notice Scale (s 117(3)(a))**: Service ≤ 1 yr: 1 week · > 1 to ≤ 3 yrs: 2 weeks · > 3 to ≤ 5 yrs: 3 weeks · > 5 yrs: 4 weeks
+- **Over-45 Addition (s 117(3)(b))**: Add 1 extra week if over 45 years old (46+) with at least 2 years continuous service (maximum 5 weeks).
+- **Notice Shortfall**: (Statutory Notice Weeks − Working Notice Weeks Given) × Full Weekly Rate of Pay (s 18).
 
 ### Formula 5. NES Redundancy Pay (NES s 119, Employers with 15+ Employees Only)
 
-Applies to permanent employees (≥12 months service) whose job is abolished by a non-small-business employer (15 or more employees across associated entities):
+Applies to permanent employees (≥12 months service) whose job is abolished by a non-small-business employer (15 or more employees across associated entities), calculated at ordinary-hours Base Rate of Pay (s 16):
 
 - 1–<2 yrs: 4 wks · 2–<3 yrs: 6 wks · 3–<4 yrs: 7 wks · 4–<5 yrs: 8 wks · 5–<6 yrs: 10 wks · 6–<7 yrs: 11 wks · 7–<8 yrs: 13 wks · 8–<9 yrs: 14 wks · 9–<10 yrs: 16 wks · 10+ yrs: 12 wks.
 

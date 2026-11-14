@@ -1,4 +1,4 @@
-# Family Law Self-Help Cookbook: 2025–2026 Reforms Guide to DIY Divorce, Consent Orders & Priority Property Pools (PPP <= $550,000) (FY 2026–27 Verified Edition)
+# Family Law Self-Help Cookbook: 2025–2026 Reforms Guide to DIY Divorce, Consent Orders & Priority Property Pools (PPP < $550,000) (FY 2026–27 Verified Edition)
 
 **Important Notice: General Legal & Procedural Information Only**
 
@@ -48,14 +48,14 @@ Callers going through a painful separation sometimes ask lawyers to *"prove my e
 
 ---
 
-## 3. Consent Orders ($215) & Priority Property Pools (PPP <= $550,000)
+## 3. Consent Orders ($215) & Priority Property Pools (PPP < $550,000)
 
 1. **Application for Consent Orders ($215 filing fee)**:
    - Informal written agreements have zero binding finality under the *Family Law Act* and risk later challenges (or setting aside under s 79A if assets are concealed).
    - Mandatory Superannuation Split Rule: You must serve the proposed Minute on the Superannuation Fund Trustee at least 28 days before filing to obtain written procedural fairness confirmation.
    - Identical .docx Rule: Upload both the signed PDF Minute and a word-for-word identical editable .docx Minute, plus a Notice of Child Abuse, Family Violence or Risk if parenting orders are sought.
-2. **Contested Small Pools: Priority Property Pools (PPP <= $550,000)**:
-   - Where net property excluding superannuation is $550,000 or less, use the streamlined PPP Financial Summary alongside an Initiating Application (1 July 2026 fees: Financial or Parenting Final = $455 / $610 with Interim; Both = $740 / $895 with Interim).
+2. **Contested Small Pools: Priority Property Pools (PPP < $550,000)**:
+   - Where net property excluding superannuation is under $550,000 (para 3.1(a) of FCFCOA Practice Direction fam-ppp, alongside the Court's discretionary designation pathway under para 3.1(b) where net non-super property is not significantly greater than $550,000; parenting-combined or contested trust/corporate files are excluded under para 3.3), use the streamlined PPP Financial Summary alongside an Initiating Application (1 July 2026 fees: Financial or Parenting Final = $455 / $610 with Interim; Both = $740 / $895 with Interim).
    - Parenting Pre-Action (s 60I Certificate) & Page Limits: Unless urgent family violence or child abuse applies, obtain an FDR s 60I Certificate first (e.g. via Family Relationship Centre 1800 050 321). Interim affidavits are capped at 10 pages.
 
 ---
